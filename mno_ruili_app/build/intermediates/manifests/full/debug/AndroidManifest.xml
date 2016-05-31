@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mno.ruili_app"
+    android:versionCode="5"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <permission
+        android:name="mno.ruili_app.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="mno.ruili_app.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- Optional for location -->
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <!-- 权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+　
+    
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 环信所要的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!--  -->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <!-- instrumentation -->
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.umeng.soexample" />
+    <!-- renren sso Permission for Unit Test -->
+    <!-- QQ、QQ空间所需权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+
+    <application
+        android:name="mno.ruili_app.myapplication"
+        android:allowBackup="true"
+        android:icon="@drawable/m_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <service android:name="mno.ruili_app.main.CountService" />
+
+        <receiver android:name="mno.ruili_app.main.DownLoadBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="mno.ruili_app.main.LauncherActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 引导页面 -->
+        <activity
+            android:name="mno.ruili_app.main.LeadActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- alipay -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <activity
+            android:name="mno.pay.alipay.PayActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- alipay sdk end -->
+
+        <activity
+            android:name="mno.down.ui.DownloadActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <service
+            android:name="mno.down.service.DownloadService"
+            android:exported="false" />
+
+        <receiver android:name="mno.down.util.MissionActionReceiver" />
+
+        <activity
+            android:name="mno.ruili_app.main.Main"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.main.HomeFragment"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.main.NeighborFragment"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.main.MyFragment"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.mylogin"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.myregistered"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.mycheckcode"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_findpwd"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.myfindcheckcode"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.mysetpsw"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_buy"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|layoutDirection"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_viedio"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|layoutDirection"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_xx"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 消息提示 -->
+        <activity
+            android:name="mno.ruili_app.my.My_xiaoxi_item"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 系统消息详情页 -->
+        <activity
+            android:name="mno.ruili_app.my.SystemMsgDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_xxxg"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_xgname"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 修改职业，单位，手机号 -->
+        <activity
+            android:name="mno.ruili_app.my.My_xgwork"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.My_xgdanwei"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.My_xgphonenum"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_xgplace"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_xgsex"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_xgsign"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.aboutroom"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_wd"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_sc"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_ht"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_xf"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_kcjl_item"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_wdxa_item"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_grzy_item"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_gyll_item"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_bz_item"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_yjfk_item"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_jcgx_item"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.my.my_tstz_item"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 设置 -->
+        <activity
+            android:name="mno.ruili_app.my.My_setup_item"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 人才广场 -->
+        <!-- 职位详情 -->
+        <activity
+            android:name="mno.ruili_app.my.Job_details"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 简历详情 -->
+        <activity
+            android:name="mno.ruili_app.my.Worker_details"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 填写个人简历 -->
+        <activity
+            android:name="mno.ruili_app.my.Resume"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 填写招聘信息 -->
+        <activity
+            android:name="mno.ruili_app.my.AddEmpMsg"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 求职消息列表 -->
+        <activity
+            android:name="mno.ruili_app.my.Talk_message"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 聊天界面 -->
+        <activity
+            android:name="mno.ruili_app.my.im.ChatActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 查看发布的所有职位 -->
+        <activity
+            android:name="mno.ruili_app.my.AllJobActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 选择职位 -->
+        <activity
+            android:name="mno.ruili_app.my.SelectJobActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 选择薪资 -->
+        <activity
+            android:name="mno.ruili_app.my.SelectSalaryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 选择地点 -->
+        <activity
+            android:name="mno.ruili_app.my.SelectPlaceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 选择工作经历年限 -->
+        <activity
+            android:name="mno.ruili_app.my.SelectWorkTimeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 选择最高学历 -->
+        <activity
+            android:name="mno.ruili_app.my.SelectHighEduActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 添加工作经历 -->
+        <activity
+            android:name="mno.ruili_app.my.AddWorkExp"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 添加工作描述 -->
+        <activity
+            android:name="mno.ruili_app.my.WorkDescribeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 添加教育经历 -->
+        <activity
+            android:name="mno.ruili_app.my.AddEduExp"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 添加教育描述 -->
+        <activity
+            android:name="mno.ruili_app.my.EduDescribeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 添加招聘职位 -->
+        <activity
+            android:name="mno.ruili_app.my.AddEmpActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 人才与工作的搜索 -->
+        <activity
+            android:name="mno.ruili_app.my.JobPlace_search"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 修改密码 -->
+        <activity
+            android:name="mno.ruili_app.my.Reset_pwd_item"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.ct.imageview"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.nei.wdfragment"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.nei.zxfragment"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno.ruili_app.ct.CropImageActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.nei.nei_bj"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.nei.nei_find"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.nei.nei_wdxq"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.nei.nei_zxxq"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.nei.nei_zxpl"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.nei.nei_zx"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.nei.nei_bj_tag"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.nei.nei_pl"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.home.home_mfvideo"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.home.home_zbvideo"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.home.home_hyvideo"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.home.home_zb_rl"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.home.home_flash"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.home.home_zb_rl_"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.home.home_video"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|layoutDirection"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <!-- 直播视频_》今日直播 -->
+        <activity
+            android:name="mno_ruili_app.home.home_video2"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|layoutDirection"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.home.home_vod"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.home.home_zb"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|layoutDirection"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.home.viedio_pl_fragment"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.home.viedio_xq_fragment"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mno_ruili_app.home.viedio_ml_fragment"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="30df03cd5ff1839bd4e11f2169d94464" />
+
+        <!--  -->
+        <!-- 友盟AppKey， 需要替换成你自己的 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="55fa5b29e0f55af45a001310" >
+        </meta-data>
+        <!-- 4eaee02c527015373b000003 -->
+        <!-- android:value="52a98cf856240b902211203e" > -->
+
+
+        <!-- *************************    分享相关的注册 START **************************** -->
+        <!-- 分享内容编辑页 -->
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+
+        <!-- 1.腾讯SSO授权的Activity注册 -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent100424468" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- 2.微信回调activity -->
+        <activity
+            android:name="mno.ruili_app.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- 3.新浪授权的Activity注册 -->
+        <!--
+        <activity
+            android:name=".WBShareActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+		<activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="false" >
+        </activity>
+        <service 
+            android:name="com.sina.weibo.sdk.net.DownloadService"
+            android:exported="false">
+        </service>
+        -->
+
+
+        <!-- *************************    分享相关的注册 END **************************** -->
+
+
+        <!-- push  stat -->
+
+
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="mno.ruili_app" />
+            </intent-filter>
+        </activity>
+        <!-- Required  SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <!-- Required SDK 核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <!-- Required SDK 核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="mno.ruili_app" />
+            </intent-filter>
+        </service>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
+ <!-- Required  显示通知栏 -->
+                <category android:name="mno.ruili_app" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK核心功能 -->
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver" />
+
+        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+        <receiver android:name="mno.ruili_app.main.MyReceiver" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+ <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+ <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+ <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+ <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" />
+ <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+ <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="mno.ruili_app" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required  . Enable it you can get statistics data with channel  a55b07754d52657c30ddd83a 72c464e55f34e0590dce1001 -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="e00b461121dec555a9a0e940" />
+ <!-- </>值来自开发者平台取得的AppKey -->
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="Pickrand.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="5" />
+        <!-- 渠道统计的名称 -->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="360zhushou" />
+
+        <!-- 环信appkey所有的配置 -->
+        <!-- 设置环信应用的appkey -->
+        <meta-data
+            android:name="EASEMOB_APPKEY"
+            android:value="devwzect#dsx" />
+        <!-- 声明sdk所需的service SDK核心功能 -->
+        <service
+            android:name="com.hyphenate.chat.EMChatService"
+            android:exported="true" />
+        <!-- 声明sdk所需的receiver -->
+        <receiver android:name="com.hyphenate.chat.EMMonitorReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+            <!-- 可选filter -->
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- end -->
+    </application>
+
+</manifest>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_f5"
+    android:orientation="vertical" >
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp"   
+	    android:background="@color/blue_top" >
+
+            <mno.ruili_app.ct.CloseButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/all_back" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="登录"
+                android:textColor="@color/white"
+                android:textSize="@dimen/default_font_title_size"
+                 />
+
+            <TextView
+                android:id="@+id/my_but_registered"
+                style="@style/style_text_mybut"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="20dp"
+                android:text="注册"
+                android:textColor="@color/white"
+                android:textSize="@dimen/default_font_content_size" />
+
+        </RelativeLayout>
+		<!-- 账号和密码 -->
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="20dp"
+		    android:background="#FFFFFF"
+		    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <mno.ruili_app.ct.CustomEditText
+            android:id="@+id/edi_my_loginname"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="0.2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="手机/邮箱/用户名"
+            android:inputType="none"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="#b7b7b7"
+            android:textSize="14sp" >
+
+            <requestFocus />
+        </mno.ruili_app.ct.CustomEditText>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            style="@style/style_text_mybut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0"
+            android:src="@drawable/edi_clear"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="0.01dip"
+     android:layout_marginLeft="20dp"
+     android:layout_weight="0"
+     android:background="#7fdcdcdc" />
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" >
+
+     <mno.ruili_app.ct.CustomEditText
+         android:id="@+id/edi_my_loginpsw"
+         android:layout_width="match_parent"
+         android:layout_height="48dp"
+         android:layout_marginBottom="0.2dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_weight="1"
+         android:background="#FFFFFF"
+         android:ems="10"
+         android:hint="密码"
+         android:inputType="textPassword"
+         android:padding="10dp"
+         android:singleLine="true"
+         android:textColorHint="#b7b7b7"
+         android:textSize="14sp" />
+      <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0"
+            android:src="@drawable/edi_clear"
+            style="@style/style_text_mybut"
+            android:visibility="invisible" />
+
+ </LinearLayout>
+
+</LinearLayout>
+<TextView
+    android:id="@+id/my_but_login"
+    style="@style/style_text_mybut"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/radius_green"
+    android:text="登录"
+    android:textColor="@color/white"
+    android:textSize="14sp" />
+<!--  -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp" >
+
+    <CheckBox
+        android:id="@+id/my_xw_but"
+        style="@style/MyCheckBox"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="记住密码"
+        android:textColor="#377dbb"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/login_findpwd"
+        style="@style/style_text_mybut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:text="忘记密码？"
+        android:textColor="#377dbb"
+        android:textSize="12sp" />
+
+</LinearLayout>
+<!--  -->
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <!-- 温馨提示 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_marginTop="15dp">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textColor="#377dbb"
+        	android:textSize="14sp" 
+        	android:text="温馨提示："
+            android:layout_gravity="center"/>
+        <TextView
+		     android:layout_width="match_parent"
+		     android:layout_height="0.01dip"
+		     android:layout_marginLeft="20dp"
+		     android:layout_weight="0"
+		     android:background="#7fdcdcdc" />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="12sp"
+            android:textColor="#7b7b7d" 
+            android:layout_gravity="center"
+            android:text="睿立电商会员和电子商务协会会员免注册，可用PC端会员账号+密码直接登录"/>
+    </LinearLayout>
+	<!--  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="#c9c9c9" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="其它方式登录"
+                android:textColor="#7b7b7d" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="#c9c9c9" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+
+            <ImageView
+                android:id="@+id/my_login_wx"
+                style="@style/style_text_mybut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:src="@drawable/login_wx" />
+
+            <ImageView
+                android:id="@+id/my_login_sina"
+                style="@style/style_text_mybut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/login_wb" />
+
+            <ImageView
+                android:id="@+id/my_login_qq"
+                style="@style/style_text_mybut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:src="@drawable/login_qq" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:textSize="10sp"
+            android:text="搜索历史"/>
+        <TextView 
+            android:id="@+id/tv_deleteAll"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/delete_history"
+            android:layout_marginRight="5dp"
+            android:textSize="10sp"
+            android:gravity="center_vertical"
+            android:text="清空"/>
+    </RelativeLayout>
+	<TextView
+          android:layout_width="match_parent"
+          android:layout_height="0.01dip"
+          android:background="#7fdcdcdc" />
+	<ListView 
+	    android:id="@+id/lv_history"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#ffffff"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+	</ListView>
+</LinearLayout>

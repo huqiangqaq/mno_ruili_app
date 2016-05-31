@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gensee_baseplayer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mno_ruili_app/libs/gensee_baseplayer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\animator\\fragment_left_exit.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\animator\\fragment_left_exit.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\animator\\fragment_left_enter.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\animator\\fragment_left_enter.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\animator\\fragment_pop_top_enter.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\animator\\fragment_pop_top_enter.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\animator\\fragment_pop_left_enter.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\animator\\fragment_pop_left_enter.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\animator\\fragment_top_enter.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\animator\\fragment_top_enter.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\animator\\fragment_pop_left_exit.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\animator\\fragment_pop_left_exit.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\animator\\fragment_top_exit.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\animator\\fragment_top_exit.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\animator\\fragment_pop_top_exit.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\animator\\fragment_pop_top_exit.xml"
+    }
+]

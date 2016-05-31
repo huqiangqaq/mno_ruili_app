@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 225,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 373
+                    }
+                }
+            }
+        ]
+    }
+]

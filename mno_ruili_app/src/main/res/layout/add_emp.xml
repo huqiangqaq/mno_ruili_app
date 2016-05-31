@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!--  添加招聘职位-->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+	        <TextView 
+	            android:id="@+id/tv_jobName"	            
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:text="ios开发工程师"/>		
+	        <TextView 
+	            android:id="@+id/tv_salary"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="10dp"
+	            android:layout_alignParentRight="true"
+	            android:text="10k-20k/月"/>	                        
+        </RelativeLayout>
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+	        <TextView 
+	            android:id="@+id/tv_workTime"	            
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:text="3-5年"/>		
+	        <TextView 
+	            android:id="@+id/tv_workPlace"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="10dp"
+	            android:layout_alignParentRight="true"
+	            android:text="杭州"/>	                        
+        </RelativeLayout>
+         <!--  <TextView 
+	            android:id="@+id/tv_null"
+	            android:layout_width="wrap_content"
+	            android:layout_height="0dp"/>	-->
+	      <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">             
+	       <TextView
+	           android:id="@+id/tv_edit" 
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_alignParentRight="true"
+	           android:layout_marginRight="50dp"
+	           android:textColor="@color/orange"
+	           android:text="编辑"/>  
+	       <TextView 
+	           android:id="@+id/tv_delete" 
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_alignParentRight="true"
+	           android:layout_marginRight="10dp"
+	           android:textColor="@color/orange"
+	           android:text="删除"/>        
+        </RelativeLayout>           	         			
+    </LinearLayout>
+
+</LinearLayout>
+

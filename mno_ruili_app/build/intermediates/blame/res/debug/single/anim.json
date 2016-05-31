@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\welcome_fade_in.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\welcome_fade_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_right.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_left.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_out.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\hold.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\anim\\hold.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\anim\\push_top_out.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\head_in.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\anim\\head_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\progress_rotate_anim.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\progress_rotate_anim.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\welcome_fade_out.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\welcome_fade_out.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\voice_from_icon.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\anim\\voice_from_icon.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\progress_list_anim.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\progress_list_anim.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_out_from_bottom.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_right.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\head_out.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\anim\\head_out.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_left.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\anim\\slide_out_to_left.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_top.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\voice_to_icon.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\anim\\voice_to_icon.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_in_from_bottom.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_in.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\umeng_socialize_fade_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_bottom.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\welcome_fade_in_scale.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\welcome_fade_in_scale.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_right.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\anim\\slide_in_from_right.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\popshow_anim.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\popshow_anim.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_out.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_out.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\anim\\push_top_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\random_fade.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\random_fade.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_left.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\anim\\slide_in_from_left.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\pophidden_anim.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\pophidden_anim.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\fade.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\fade.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_load_animation.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\dialog_load_animation.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in2.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\anim\\push_top_in2.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out2.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\anim\\push_top_out2.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_right.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\anim\\slide_out_to_right.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_left.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\anim\\push_bottom_out.xml"
+    }
+]

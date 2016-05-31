@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <mno.ruili_app.ct.PageFlipper
+                android:id="@+id/mypic"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true" >
+            </mno.ruili_app.ct.PageFlipper>
+            <!-- 轮播图中的圆点 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/mypic"
+                android:layout_alignRight="@+id/mypic"
+                android:orientation="horizontal" >
+				 <TextView
+				     android:id="@+id/mPlayText"
+				     android:layout_width="0dp"
+				     android:layout_height="wrap_content"
+				     android:layout_marginBottom="5dp"
+				     android:layout_marginRight="80dp"
+				     android:layout_marginTop="5dp"
+				     android:layout_weight="1"
+				     android:lines="1"
+				     android:text="1"
+				     android:textColor="@color/white"
+				     android:textSize="13sp"
+				     android:visibility="invisible" />
+				
+				<mno.ruili_app.ct.CycleIndicator
+				    android:id="@+id/indicator0"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center"
+				    android:layout_marginRight="10dp" >
+     			</mno.ruili_app.ct.CycleIndicator>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

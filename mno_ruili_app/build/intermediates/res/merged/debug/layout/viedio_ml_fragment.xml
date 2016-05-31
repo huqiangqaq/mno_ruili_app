@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/zb_bt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white_f5"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/zb_color"
+            android:layout_width="12dp"
+            android:layout_height="match_parent"
+            android:background="#32b16c" />
+
+        <TextView
+            android:id="@+id/zb_bt_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical"
+            android:text="挖掘直通车点击的秘密"
+            android:textColor="#979797"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/zb_bt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:text="2015年5月17日"
+            android:textColor="#979797"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:listSelector="@drawable/selector_button_color_red_noshape"
+        android:scrollbars="@null"
+        android:visibility="gone" >
+
+    </ListView>
+
+</LinearLayout>

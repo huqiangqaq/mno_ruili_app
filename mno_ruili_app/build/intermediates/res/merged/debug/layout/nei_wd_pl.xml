@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/blue_top"
+        android:gravity="center" >
+
+        <mno.ruili_app.ct.CloseButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:src="@drawable/all_back" />
+
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="评论"
+            android:textColor="@color/white"
+            android:textSize="@dimen/default_font_title_size" />
+
+        <LinearLayout
+            android:id="@+id/nei_wdxq_more"
+            style="@style/style_text_mybut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/nei_pl_edi"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:gravity="left|top"
+            android:hint="评论内容。。。"
+            android:inputType="textMultiLine"
+            android:maxLength="100"
+            android:maxLines="6"
+            android:minLines="6"
+            android:padding="10dp"
+            android:textColor="#b7b7b7"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#eeeeee"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+              
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="6dp"
+              
+                android:clickable="true"
+                android:onClick="onclick"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/nei_pl_but"
+                    style="@style/style_text_mybut"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="top"
+                    android:background="@drawable/selector_findtag"
+                    android:gravity="center"
+                    android:text="发表"
+                    
+   				    android:textColor="@drawable/find_textchange"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

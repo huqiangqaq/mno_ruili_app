@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:focusable="true"   
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+    
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/blue_top" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/view_line_edi" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="0"
+                    android:src="@drawable/nei_find" />
+
+                <mno.ruili_app.ct.CustomEditText
+                    android:id="@+id/nei_find_edi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="#00ffffff"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/edi_clear"
+                    android:hint="请输入关键字进行搜索"
+                    android:imeOptions="actionSearch"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="#afffffff"
+                    android:textSize="15sp" >
+
+                </mno.ruili_app.ct.CustomEditText>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/back"
+                style="@style/style_text_mybut"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:text="取消"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+ 
+    <LinearLayout
+        android:id="@+id/find_tag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/nei_ss"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="不知从何搜起？试试点击关键词吧"
+            android:textColor="#c7c7c7" />
+
+        <GridView
+            android:id="@+id/nei_tag_findview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:numColumns="4" >
+        </GridView>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/nei_fl"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:visibility="invisible" >
+
+    <LinearLayout
+        android:id="@+id/nei_zx"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:onClick="onclick"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/but_nei_zx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:drawableLeft="@drawable/nei_zx"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="资讯"
+            android:textColor="@color/blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/bz_nei_zx"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:layout_weight="0"
+            android:background="@color/blue_top"
+            android:text="" />
+
+    </LinearLayout>
+     <TextView
+           
+            android:layout_width="0.1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="#dcdcdc"
+            android:text="" />
+  <LinearLayout
+      android:id="@+id/nei_wd"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_weight="1.0"
+      android:onClick="onclick"
+      android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/but_nei_wd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:drawableLeft="@drawable/nei_wd"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="问答"
+            android:textColor="@color/gray_91"
+            android:textSize="15sp" />
+		<TextView
+            android:id="@+id/bz_nei_wd"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:layout_weight="0"           
+            android:text="" />
+    </LinearLayout>
+</LinearLayout>
+
+ <ListView
+     android:id="@+id/mListView"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_marginTop="48dp"
+     android:divider="@null"
+     android:listSelector="@drawable/selector_button_color_red_noshape"
+     android:visibility="invisible" >
+        
+    </ListView>
+
+    <ListView
+        android:id="@+id/mListView2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="48dp"
+        android:divider="@null"
+        android:listSelector="@drawable/selector_button_color_red_noshape"
+        android:visibility="invisible" >
+        
+    </ListView>
+    <ListView
+     android:id="@+id/mListView3"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     
+     android:divider="@null"
+     android:listSelector="@drawable/selector_button_color_red_noshape"
+     android:visibility="invisible" >
+        
+    </ListView>
+</FrameLayout>
+</LinearLayout>

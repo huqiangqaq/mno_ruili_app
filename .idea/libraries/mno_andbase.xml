@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mno-andbase">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mno_ruili_app/libs/mno-andbase.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\SocialSDK_QQZone_2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4a69b33758dcba3ef519cbd4b6c8af5f41603c4f">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_QQZone_2_10fff079d22a360e29b80bad68a0aad1f51b2b7d\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\SocialSDK_QQZone_1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_QQZone_1_f5ba305a10f3b9239242f0a7c2746e93f1124dde\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\gensee_doc.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a8cba9feace6c13f778f36414a2dc7700cb09875">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\gensee_doc_0b5380c00403d768de90627229f673f03b4ce304\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\gensee_common.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2a29eaf1c7667ebec7621853bbdc53ae8b81ea02">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\gensee_common_831f35b421db58ea81c2f9ec62e74d565256b039\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\active-android.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b0217c9cb5135362a1fd5acb318168bbbe1803f8">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\active-android_68fa47b931b6958509997b8262e072db450ce704\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\android-async-http-1.4.6.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.6_03099ed229f631d4949ef19693bb201e2b72df08\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.1_efd358856f7349d1a9ffd2b176d6d830be5c44c9\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\exploded-aar\mno_ruili_app\easeUI\unspecified\jars\libs\google-play-services.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="97c101f7ca7ddde88b334a1b0abdc1f29c6c20a5">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\8\google-play-services_9d48b6939888272f5da3d89f949b877c3a8dae0b\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\picasso-2.5.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\picasso-2.5.0_d0c6b8fb6545bab8c586b8e2d402f7a888ddda2c\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\gensee_rtsdk.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ed38189c6d2e0be1f9c3df3ac5bec75578421e1d">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\gensee_rtsdk_7ace642654c32c9f6da42a7dadb312a1ed3115a7\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4aa8d4cde1e2201e5360daaae4bd9fdbf4194d2a">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_WeiXin_2_8948e870b5507f72b142439695461c7974814a7f\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\gensee_expression.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d80eaa7983e02a460593e07fbef03c23008287ab">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\gensee_expression_d72d55b05ba280ba6b3ddd562912e26f6377c4ba\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\Android_Location_V1.3.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b64d1f38ef7ee28b538d61a39d040f249c65587c">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\Android_Location_V1.3.2_9dbc9dbf6b8888a6ddfacc10946c8735da682fd3\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\exploded-aar\mno_ruili_app\easeUI\unspecified\jars\libs\glide-3.6.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8e31bc4d13786e4b2695c573542152f3125e8e53">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\8\glide-3.6.1_f976f0059efe56fe5f943a85f7ffab509cad13a2\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.1_4f6f5e9977b1ddafad030e84327b5908215a72a5\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\gensee_baseplayer.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ccfab2c8f78ced1422572c83b6264abe6578fb11">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\gensee_baseplayer_e7419cbd818beed4646c077274bca0ed5eabce8b\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\umeng-analytics-v5.6.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b2705cbb19f52bb4d242458163a98d9e889c1292">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-analytics-v5.6.1_0bb9753e1b6b924b91f287d5d17e16fa720dcf34\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\umeng_social_sdk.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="03e186fabdab66983e2b2aa42a2b2de7cb37dc4a">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng_social_sdk_faded267bb94cbfe7068d611842a1beb3dfaa2dd\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\okio-1.6.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\okio-1.6.0_c10977142ea83a464f207d949b5683f253738aa8\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\SocialSDK_QQZone_3.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8962f50f03ab83787c2c3035d0c79fe79cb0f67d">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_QQZone_3_b26afd4f18897657e9cc78cd604a727d08025c7e\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\gensee_rt_audio.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fdf0138baef3a1e68d552dd0f1d2dd78aacc17c9">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\gensee_rt_audio_aa547f38ca2976c5c6a8b23c56125b1094dc66b6\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\jpush-sdk-release1.8.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="bea84de265dbd10ec4ea0d0185cf19dce738edd6">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\jpush-sdk-release1.8.0_91b5eb76ddf618b13fad367c379e0261f65989e9\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\gensee_hb.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="199631f15b15de24f3d8e1807c986e0c709235aa">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\gensee_hb_9157bff87d9f28c4b594cb5956f6ff1f2530578f\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\exploded-aar\mno_ruili_app\easeUI\unspecified\jars\libs\org.apache.http.legacy.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="283d14cbd51d9d6b0b6fbaadf6850b340bae8804">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\8\org.apache.http.legacy_c3929aa76393b9f1d4186de890bc98a0c442b252\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\httpmime-4.1.3.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\httpmime-4.1.3_737225ee0ae4f44b8765e036d4df00101ad3042b\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\SocialSDK_WeiXin_1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_WeiXin_1_ae9b47f08fc9065ccb95b702d2fe0a6c8d2c7f8a\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\exploded-aar\mno_ruili_app\easeUI\unspecified\jars\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2e4ce71101a19923e34d943db3fa2eb74dab84c3">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\8\BaiduLBS_Android_f7da6b0e435d35ea2c0d862b98a32f7fdf7caa3d\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\android-support-multidex.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9a9d5c95d823ccda38f185a5f80ace6bfd61c0d5">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-multidex_3d0e3269d413f08eb36d86fe10feba488f36b84c\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\exploded-aar\mno_ruili_app\easeUI\unspecified\jars\libs\hyphenatechat_3.1.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9609ca7b1dae6e8350fe99e17fdd704a6e4e90b2">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\8\hyphenatechat_3.1.0_e94e8097b281c49895a9ba392aa7661542a3151e\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="82908cfe0f4ac0e1b6b34aa42863b7dc5c5f7fd1">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_799b15343414aaf7580f3a6586dd367696847199\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\gensee_vod_ol.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6518c3245c6f54bb68fe6943786823b67fd57a87">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\gensee_vod_ol_8daf144ac6e43b981e25af30e909e1f6bc975a66\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\fastjson-1.2.4.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fbcf8415e32859b473b336e5ac6422ee69b1185b">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\fastjson-1.2.4_5fd0e488cd92dbf27283c674843517d760e0aa57\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f7ecd020e8ed3415143333523fa1cefe5b1dba8d">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_42e50d3fe7e7205944734ae2c39f5dd88b894bb2\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\volley-150320.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="bd06cb1c2c9ba96b73765b03ebd80d0ba759c346">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\volley-150320_3a504e2ec17ffdb8314b11953b3b33c07c16cb20\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.1_14744f1e01c42204cc0f5c148e0e30786147bb63\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\alipaySDK-20150818.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6dde19fc34adb03c637b17fdaa754e0c02cf75a0">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\alipaySDK-20150818_af22743c293a6cf3dc9790a16091fc503caaad08\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\mno-andbase.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8f386fea579c0bc67cf9895319ca23f45f1145df">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\mno-andbase_9d6128ebb89ef81805cc75b5f573877cba6bc9eb\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\libs\SocialSDK_Sina.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f11202cb71112f923a80c75d42e029fc53257e9c">
+        <dex dex="D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_Sina_79404bfa88e48b85d2e1cfff9b3c83315b225f35\classes.dex" />
+    </item>
+
+</items>

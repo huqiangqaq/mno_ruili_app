@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal" >
+    <TextView 
+        android:id="@+id/tv_salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:text="2-5k"/>
+    <ImageView 
+        android:id="@+id/iv_salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:visibility="invisible"
+        android:src="@drawable/select_salary"/>
+
+</RelativeLayout>

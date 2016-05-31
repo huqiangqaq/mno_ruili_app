@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+    
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp"   
+	    android:background="@color/blue_top" >
+
+            <mno.ruili_app.ct.CloseButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/all_back" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="选择地区"
+                android:textColor="@color/white"
+                android:textSize="@dimen/default_font_title_size"
+                 />
+
+            <TextView
+                android:id="@+id/my_but_ok"
+                style="@style/style_text_mybut"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="20dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/default_font_content_size" />
+
+        </RelativeLayout>
+
+<ListView
+    android:id="@+id/mlistview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@null"
+    android:listSelector="@drawable/selector_button_color_red_noshape"
+    android:visibility="visible" >
+
+</ListView>
+
+<ListView
+    android:id="@+id/mlistview2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@null"
+    android:listSelector="@drawable/selector_button_color_red_noshape"
+    android:visibility="gone" >
+
+</ListView>
+
+</LinearLayout>

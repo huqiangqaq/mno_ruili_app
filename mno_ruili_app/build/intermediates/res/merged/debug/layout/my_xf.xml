@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical" >
+    
+	 <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp"	   
+	    android:background="@color/blue_top" >
+            <mno.ruili_app.ct.CloseButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/all_back" />
+ 			
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="我的学分"
+                android:textColor="@color/white"
+                android:textSize="@dimen/default_font_title_size"
+                 />
+
+            <TextView
+                android:id="@+id/my_but_registered"
+                style="@style/style_text_mybut"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="20dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/default_font_content_size" />
+
+        </RelativeLayout>
+        <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" >
+
+     <mno.ruili_app.ct.RoundimgView
+         android:id="@+id/bj_image"
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="40dp"
+         android:background="#00FFFFFF"
+         android:scaleType="fitXY"
+         android:src="@drawable/home_xf_bj" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/bj_image"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="20dp"
+         android:layout_marginTop="20dp"
+         android:background="@drawable/view_line_fbedi"
+         android:paddingBottom="10dp"
+         android:paddingLeft="20dp"
+         android:paddingRight="20dp"
+         android:paddingTop="10dp"
+         android:text="我的邀请码：              "
+         android:textColor="#939393" />
+
+     <LinearLayout
+         android:id="@+id/linearLayout1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/bj_image"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="30dp"
+         android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/TextView01"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:text="学分"
+             android:textColor="@color/white"
+             android:textSize="13sp" />
+
+         <TextView
+             android:id="@+id/my_xftext"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:text=""
+             android:textColor="@color/white"
+             android:textSize="18sp" />
+     </LinearLayout>
+
+ </RelativeLayout>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp" >
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="0dp"
+         android:layout_height="1dp"
+         android:layout_gravity="center"
+         android:layout_weight="1"
+         android:background="#dcdcdc" />
+
+     <TextView
+         android:id="@+id/textView6"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_weight="0"
+         android:gravity="center"
+         android:text="学分规则" />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="0dp"
+         android:layout_height="1dp"
+         android:layout_gravity="center"
+         android:layout_weight="1"
+         android:background="#dcdcdc" />
+ </LinearLayout>
+<mno.ruili_app.ct.mnoScrollView
+        android:id="@+id/scrollView1"
+    
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+             <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+ 
+
+ 
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" >
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="5dp"
+         android:layout_marginTop="15dp" >
+
+        <TextView
+            android:id="@+id/itemstext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:gravity="bottom|left"
+            android:paddingLeft="10dp"
+            android:text="项目"
+            android:textColor="#909090" />
+
+        <TextView
+            android:id="@+id/itemstext2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#909090" 
+            android:text="每次" />
+
+        <TextView
+            android:id="@+id/itemstext3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingRight="5dp"
+            android:text="现有"
+            android:textColor="#909090" />
+
+    </LinearLayout>
+      <LinearLayout
+                
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="300dp"
+               android:orientation="vertical" >
+
+               <mno.ruili_app.ct.mnolistview
+                   android:id="@+id/mListView"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:divider="@null"
+                   android:listSelector="@drawable/selector_button_color_red_noshape"
+                   android:scrollbars="@null" >
+               </mno.ruili_app.ct.mnolistview>               
+            </LinearLayout>
+            <ImageView
+		         android:id="@+id/imageView1"
+		         android:layout_width="match_parent"
+		         android:layout_height="wrap_content"
+		         android:layout_alignParentBottom="true"
+		         android:layout_alignParentLeft="true"
+		         android:scaleType="fitXY"
+		         android:src="@drawable/home_xf_bj2" />
+ 		</LinearLayout>
+ 	</LinearLayout>
+</mno.ruili_app.ct.mnoScrollView>
+  
+</LinearLayout>
+
+           

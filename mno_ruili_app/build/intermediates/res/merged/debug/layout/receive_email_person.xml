@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<TextView
+        android:id="@+id/timestamp"
+        android:layout_marginTop="5dp"
+        style="@style/chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_chat_activity" >
+
+        <ImageView
+            android:id="@+id/iv_userhead"
+            android:layout_width="@dimen/size_avatar"
+            android:layout_height="@dimen/size_avatar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:layout_marginLeft="@dimen/margin_chat_activity"
+            android:background="@drawable/ease_default_avatar"
+            android:scaleType="fitXY" />
+		<!-- 消息体 -->
+        <RelativeLayout
+            android:id="@+id/bubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/tv_userid"
+            android:layout_marginLeft="@dimen/margin_chat_activity"
+            android:layout_toRightOf="@id/iv_userhead"
+            >
+            <!--  android:background="@drawable/ease_chatto_bg" -->
+		    <LinearLayout 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="10dp"
+			    android:orientation="vertical" >
+			    <LinearLayout 
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical"
+			        android:background="#ffffff"  
+			        android:layout_marginLeft="4dp">
+			        <RelativeLayout 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_marginLeft="5dp"
+			            android:orientation="horizontal">
+				        <TextView 
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:layout_alignParentTop="true"
+			                android:layout_alignParentRight="true"
+			                android:background="@drawable/tv_style1"
+			                android:textSize="15sp"
+			                android:textColor="#ffffff"
+			                android:layout_marginRight="3dp"
+			                android:text="招聘"/>
+				    </RelativeLayout>  
+			        <!-- 职位名称 -->
+			        <RelativeLayout  
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_marginLeft="5dp"
+			            android:orientation="horizontal">
+			            <TextView 
+			                android:layout_width="4dp"
+			                android:layout_height="15dp"
+			                android:layout_gravity="center_vertical"
+			                android:background="@color/orange"/>
+			            <TextView 
+			                android:id="@+id/tv_jobName2"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:layout_gravity="center_vertical"
+			                android:layout_marginLeft="5dp"
+			                android:textSize="13sp"
+			                android:text="IOS开发工程师"/>			            
+			        </RelativeLayout>
+			        <!-- 学历，地点，薪水等要求 -->
+			        <RelativeLayout 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_marginTop="5dp"
+			            android:layout_marginLeft="5dp"
+			            android:layout_marginBottom="5dp">	            
+			            <LinearLayout
+			                android:id="@+id/ll_time" 
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:orientation="horizontal"
+			                android:layout_marginLeft="4dp"
+			                android:background="@drawable/tv_style2">
+			                <ImageView 
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginLeft="3dp"
+			                    android:layout_gravity="center_vertical"   
+			                    android:src="@drawable/worktime"/>
+			                <TextView 
+			                    android:id="@+id/tv_workTime2"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginLeft="3dp"
+			                    android:layout_marginRight="3dp"
+			                    android:text="3~5年"
+			                    android:textColor="#ffffff"
+			                    android:textSize="12sp"/>
+			            </LinearLayout>
+			            <LinearLayout 
+			                android:id="@+id/ll_education"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:orientation="horizontal"
+			                android:layout_toRightOf="@+id/ll_time"
+			                android:layout_marginLeft="4dp"
+			                android:background="@drawable/tv_style3">
+			                <ImageView 
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginLeft="3dp"
+			                    android:layout_gravity="center_vertical"   
+			                    android:src="@drawable/education"/>
+			                <TextView 
+			                    android:id="@+id/tv_education2"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginLeft="3dp"
+			                    android:layout_marginRight="3dp"
+			                    android:text="本科以上"
+			                    android:textColor="#ffffff"
+			                    android:textSize="12sp"/>
+			            </LinearLayout>
+			            <LinearLayout 
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:orientation="horizontal"
+			                android:layout_toRightOf="@+id/ll_education"
+			                android:layout_marginLeft="4dp"
+			                android:background="@drawable/tv_style4">
+			                <ImageView 
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginLeft="3dp"
+			                    android:layout_gravity="center_vertical"   
+			                    android:src="@drawable/workplace"/>
+			                <TextView 
+			                    android:id="@+id/tv_workPlace2"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginLeft="3dp"
+			                    android:layout_marginRight="3dp"
+			                    android:text="杭州"
+			                    android:textColor="#ffffff"
+			                    android:textSize="12sp"/>
+			            </LinearLayout>
+			            <TextView 
+			                android:id="@+id/tv_salary2"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:layout_alignParentTop="true"
+			                android:layout_alignParentRight="true"
+			                android:textSize="15sp"
+			                android:textColor="#FDBF78"
+			                android:text="10-20k"/>
+			        </RelativeLayout>
+			        <TextView
+			            android:layout_width="match_parent"
+			            android:layout_height="0.01dip"
+			            android:layout_weight="0"
+			            android:background="#7fdcdcdc" />
+			        <!-- 亮点 -->
+			        <mno.ruili_app.ct.TagFlowLayout
+			            android:id="@+id/fl_jobMsg"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content">    
+			        </mno.ruili_app.ct.TagFlowLayout>	        
+				</LinearLayout>
+			</LinearLayout>	
+		</RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_userid"
+            style="@style/chat_text_name_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/chat_nick_margin_left"
+            android:textSize="@dimen/chat_nick_text_size"
+            android:layout_toRightOf="@id/iv_userhead"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+

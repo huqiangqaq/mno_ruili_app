@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#edf1fc"
+    android:orientation="vertical" >
+    <!-- 头部 -->
+    <RelativeLayout
+        android:id="@+id/top_tietle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/blue_top" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/home_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/default_font_title_size" />
+    </RelativeLayout>
+	<!--  无用的-->
+    <LinearLayout
+        android:id="@+id/topview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+	<!--  除头部和底部的所有内容-->
+    <mno.mylistview.PullToRefreshList
+	    android:id="@+id/blog_swiperefreshlayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="48dp"
+	    android:fadingEdge="none"
+	    android:scrollbars="none" />
+	<!-- 三种视频 -->
+    <LinearLayout
+        android:id="@+id/topbut"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical" >
+		<include
+	        android:id="@+id/main_content2"
+	        layout="@layout/select_view2" />       
+    </LinearLayout>
+
+</FrameLayout>

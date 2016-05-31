@@ -1,0 +1,562 @@
+[
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_on.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_location_on.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_white_blue.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_button_white_blue.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_normal_shape.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sina_off.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_sina_off.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_color_black_noshape.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\selector_button_color_black_noshape.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_grey_blue.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_button_grey_blue.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\expand_tab_selector.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\expand_tab_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_nav_bar_bg.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_nav_bar_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_search_icon.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_search_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wxcircle_gray.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_wxcircle_gray.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_title_right_bt.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\butyuan.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\butyuan.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\radius_tm.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\radius_tm.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_normal.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_at_normal.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_white.9.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_button_white.9.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_type_select_btn.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_type_select_btn.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_default_avatar.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_default_avatar.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_right_pressed.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_title_tab_right_pressed.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_bg2.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\tv_bg2.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shape_solid_grey.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_shape_solid_grey.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_timestampe_bg.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_timestampe_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatting_setmode_keyboard_btn.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_selected.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_sidebar_selected.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_grey.9.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_button_grey.9.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\radius_orange.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\radius_orange.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_location_selector.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_chat_location_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shape_solid_black.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_shape_solid_black.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_wdzj.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\selector_button_wdzj.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatfrom_bg.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_chatfrom_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tx_off.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_tx_off.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_color_red_noshape.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\selector_button_color_red_noshape.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_ic.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_location_ic.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\choose_eara_item_selector.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\choose_eara_item_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq_on.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_qq_on.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_douban_on.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_douban_on.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_off.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_location_off.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_selector.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_sidebar_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_pressed_shape.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_line_fbedi.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\view_line_fbedi.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_red_blue.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_button_red_blue.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_shape.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\search_shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_findtag.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\selector_findtag.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_mm_listitem_grey.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_mm_listitem_grey.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_selector.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_btn_blue_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt_selected.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_title_right_bt_selected.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_blue.9.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_button_blue.9.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\radius_hui.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\radius_hui.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_light_bar_bg.9.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_light_bar_bg.9.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_takepic_selector.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_chat_takepic_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wechat.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_wechat.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_line_tm.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\view_line_tm.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_press_speak_btn.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_chat_press_speak_btn.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_selector.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\checkbox_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login_pressed.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_button_login_pressed.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_pressed_shape.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_edit_text_bg.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_edit_text_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\seek_bar.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\seek_bar.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tx_on.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_tx_on.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt_normal.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt_normal.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login_normal.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_button_login_normal.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatto_bg.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_chatto_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_style3.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\tv_style3.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_normal.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_sidebar_normal.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shareboard_item_background.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_shareboard_item_background.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_frame.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\bg_frame.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_off.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_follow_off.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_button_left.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_title_tab_button_left.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\radius_blue.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\radius_blue.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_image_selector.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_chat_image_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_style4.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\tv_style4.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_left_normal.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_title_tab_left_normal.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_send_btn_selector.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_chat_send_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_line_blue.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\view_line_blue.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_fetch_image.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_fetch_image.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_x_button.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_x_button.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_sidebar_background_pressed.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_sidebar_background_pressed.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_holo_light.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\progress_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\radius_red.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\radius_red.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_on.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_follow_on.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_line.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\view_line.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back_selected.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_action_back_selected.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatting_setmode_voice_btn.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_chatting_setmode_voice_btn.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_facebook.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_facebook.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_right_normal.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_title_tab_right_normal.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_google.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_google.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back_normal.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_action_back_normal.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check_on.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_oauth_check_on.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_oauth_check.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_button_right.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_title_tab_button_right.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_selected.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_at_selected.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\but_selector.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\but_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_style2.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\tv_style2.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_refersh.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_refersh.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qzone_on.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_qzone_on.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wechat_gray.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_wechat_gray.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sina_on.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_sina_on.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_recording_hint_bg.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_recording_hint_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\player_setting_bright_progressbar2.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\player_setting_bright_progressbar2.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_line_edi.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\view_line_edi.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_renren_off.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_renren_off.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_common_tab_bg.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_common_tab_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_check.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_follow_check.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt_selected.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt_selected.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_button.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_at_button.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\point.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\point.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_circular.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\progress_circular.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_to_button.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_share_to_button.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_transparent_corner.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_share_transparent_corner.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_bar.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\bg_bar.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_button_login.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_bg.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\tv_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_action_back.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_search_clear.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_search_clear.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_mm_listitem.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_mm_listitem.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_color_red.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\selector_button_color_red.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_msg_state_failed_resend.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_renren_on.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_renren_on.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qzone_off.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_qzone_off.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_recording_text_hint_bg.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_recording_text_hint_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check_off.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_oauth_check_off.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_red.9.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_button_red.9.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_style1.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\tv_style1.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_checked_style.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\checkbox_checked_style.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\choose_plate_item_selector.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\choose_plate_item_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\radius_green.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\radius_green.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_left_pressed.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_title_tab_left_pressed.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\player_setting_bright_progressbar.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\player_setting_bright_progressbar.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt_normal.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_title_right_bt_normal.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_bind_bg.9.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_bind_bg.9.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_window_shadow_pad.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_window_shadow_pad.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_douban_off.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_douban_off.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_bj.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_btn_cancel_bj.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\find_textchange.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\find_textchange.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wxcircle.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_wxcircle.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq_off.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_qq_off.png"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_bar.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\thumb_bar.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_normal_shape.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\drawable\\ease_btn_blue_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_cn.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\selector_button_cn.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_twitter.png",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\drawable\\umeng_socialize_twitter.png"
+    }
+]

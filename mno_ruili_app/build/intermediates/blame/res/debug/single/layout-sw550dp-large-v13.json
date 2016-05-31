@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout-sw550dp-large-v13\\umeng_socialize_post_share.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout-sw550dp-large\\umeng_socialize_post_share.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout-sw550dp-large-v13\\umeng_socialize_full_alert_dialog.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout-sw550dp-large\\umeng_socialize_full_alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout-sw550dp-large-v13\\umeng_socialize_oauth_dialog.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout-sw550dp-large\\umeng_socialize_oauth_dialog.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout-sw550dp-large-v13\\umeng_socialize_titile_bar.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout-sw550dp-large\\umeng_socialize_titile_bar.xml"
+    }
+]

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_f5"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/blue_top" >
+
+        <mno.ruili_app.ct.CloseButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:src="@drawable/all_back" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="注册"
+            android:textColor="@color/white"
+            android:textSize="@dimen/default_font_title_size" />
+
+ 
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <EditText
+            android:textColorHint="#b7b7b7"
+            android:id="@+id/edi_my_zcname"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="0.2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="手机"
+            android:inputType="number"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="14sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.01dip"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0"
+            android:background="#7fdcdcdc" />
+
+        <EditText
+            android:id="@+id/edi_my_zcpsw"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="0.2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"
+            android:textColorHint="#b7b7b7"
+            android:ems="10"
+            android:inputType="textPassword" 
+            android:hint="设置密码"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="14sp" />
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edi_my_yqm"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="0.2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="如果你有邀请码请输入（可选）"
+            android:textColorHint="#b7b7b7"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="14sp" >
+
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.01dip"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0"
+            android:background="#7fdcdcdc" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/my_but_send"
+        style="@style/style_text_mybut"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/radius_green"
+        android:text="同意协议并发送验证码"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/login_findpwd"
+        style="@style/style_text_mybut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="《隐私政策和服务协议》"
+        android:textColor="#377dbb"
+        android:textSize="12sp" />
+
+</LinearLayout>

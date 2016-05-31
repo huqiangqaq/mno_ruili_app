@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ <TextView
+     android:id="@+id/but_tag"
+     style="@style/style_text_nei_jf_but_item_big"
+     android:duplicateParentState="true"
+     android:textColor="@drawable/find_textchange"
+     android:text="1" />
+
+</LinearLayout>

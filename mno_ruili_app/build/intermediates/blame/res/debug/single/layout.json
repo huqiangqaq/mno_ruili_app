@@ -1,0 +1,946 @@
+[
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_xiaoxi_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_xiaoxi_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_mycheakcode.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\activity_my_mycheakcode.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\tv2.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\tv2.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_sc.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\dialog_sc.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_job.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\list_item_job.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_at_overlay.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_socialize_at_overlay.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\showdialog_.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\showdialog_.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_my.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\list_item_my.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_show_file.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_activity_show_file.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_conversation_list.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_fragment_conversation_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\home_zb_rl2.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\home_zb_rl2.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_video.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_sent_video.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\receive_email_comp.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\receive_email_comp.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_view.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_view.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\down_items.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\down_items.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_voice.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_received_voice.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_post_share.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_socialize_post_share.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\calendar_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\calendar_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_conversation_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_conversation_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_expression.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_expression.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_grid.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_grid.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_findpwd.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_findpwd.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pl.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_pl.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_composer_header.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_socialize_composer_header.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_img.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_img.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\select_view2.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\select_view2.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\lead_activity.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\lead_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_bak_at_list_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_bak_at_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_bak_at_list.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_bak_at_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_xx.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_xx.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_failed_load_page.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_socialize_failed_load_page.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\resume.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\resume.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_voice_call.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_sent_voice_call.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\nei_bj.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\nei_bj.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_list_item_1.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\simple_list_item_1.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ativity_my_myregistered.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\ativity_my_myregistered.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_xf.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_xf.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\fmt_my.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\fmt_my.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_emojicon.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_emojicon.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_wd.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_wd.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\receive_email_person.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\receive_email_person.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_big_expression.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_big_expression.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\home_mfvidio.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\home_mfvidio.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_baidumap.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_activity_baidumap.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pl2.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_pl2.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_expression_gridview.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_expression_gridview.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_wdxa_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_wdxa_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_addtext.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\list_item_addtext.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_grzy_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_grzy_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\choose_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\choose_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_received_video.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\vodplay.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\vodplay.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_message_list.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_chat_message_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\viedio_ml_fragment.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\viedio_ml_fragment.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\fmt_home.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\fmt_home.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_zbrl2.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_list_zbrl2.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_commom_back_btn.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_commom_back_btn.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\select_highedu.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\select_highedu.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_gyll_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_gyll_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_chat_input_menu.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_widget_chat_input_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\home_flash.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\home_flash.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\mytoppic.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\mytoppic.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_xgphonenum.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_xgphonenum.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_timetop.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_timetop.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_chat_history.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_chat_history.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\select_work_time.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\select_work_time.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\nei_wd_top.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\nei_wd_top.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_picture.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_received_picture.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\findpwd.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\findpwd.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_myconfig.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\dialog_myconfig.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\download_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\download_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\nei_zxxq.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\nei_zxxq.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\search_later.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\search_later.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_xgdanwei.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_xgdanwei.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_item_list_zbrl.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_item_list_zbrl.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_message.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_sent_message.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\loading.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\loading.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_kcjl_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_kcjl_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_wd_small.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_list_wd_small.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_showvideo_activity.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_showvideo_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\nei_find.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\nei_find.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video_call.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_received_video_call.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\select_view.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\select_view.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\tv.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\tv.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_shareboard_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_socialize_shareboard_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_location.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_sent_location.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_search_bar.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_search_bar.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_videosearch.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\list_item_videosearch.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\test2.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\test2.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_voice_recorder.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_widget_voice_recorder.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_listkc.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_listkc.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_switch_button.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_widget_switch_button.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_yjfk_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_yjfk_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\job_details.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\job_details.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\myimageview.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\myimageview.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\edu_exp.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\edu_exp.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_ht.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_ht.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_bak_platform_selector_dialog.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_bak_platform_selector_dialog.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\fmt_wd.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\fmt_wd.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_load_footer.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\pull_to_load_footer.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\add_emp.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\add_emp.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\aboutroom.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\aboutroom.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_contact.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_contact.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\nei_wd_pl.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\nei_wd_pl.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_layout_emojicon_menu.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_layout_emojicon_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_video_call.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_sent_video_call.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\view_distance.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\view_distance.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_jobplace_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_jobplace_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_city.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_city.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\playpicitem.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\playpicitem.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\system_msg_detail.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\system_msg_detail.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tag_wd.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_tag_wd.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\home_view.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\home_view.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_picture.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_sent_picture.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\worker_details.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\worker_details.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_chat.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_fragment_chat.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_at_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_socialize_at_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\add_emp_activity.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\add_emp_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_file.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_sent_file.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_xxxg.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\activity_my_xxxg.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_file.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_received_file.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\select_viewlist.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\select_viewlist.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_ht.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_ht.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_title_bar.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_widget_title_bar.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_contact_list.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_fragment_contact_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\add_edu_exp.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\add_edu_exp.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tag.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_tag.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\send_email_person.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\send_email_person.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\showdialog.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\showdialog.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_chat_primary_menu.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_widget_chat_primary_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_work1.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\list_item_work1.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_xgsex.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_xgsex.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ativity_my_login.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\ativity_my_login.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\send_email_comp.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\send_email_comp.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_titile_bar.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_socialize_titile_bar.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tag_big.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_tag_big.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\select_place.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\select_place.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\toggle_button.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\toggle_button.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_xgplace.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_xgplace.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\pay_main.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\pay_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\search_before.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\search_before.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_sc.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_sc.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_widget_emojicon.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_setup_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_setup_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_xgname.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_xgname.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\imageview.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\imageview.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\nei_zxpl.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\nei_zxpl.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_voice_call.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_received_voice_call.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\all_job_activity.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\all_job_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_search_bar_with_padding.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_search_bar_with_padding.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_message.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_received_message.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_voice.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_sent_voice.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_zp.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_zp.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_alljob.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\list_item_alljob.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_jb.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_jb.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_oauth_dialog.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_socialize_oauth_dialog.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\progress_bar_horizontal.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\progress_bar_horizontal.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\home_zb_rl.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\home_zb_rl.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_buy.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_buy.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\home_hyvidio.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\home_hyvidio.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_talkmessage.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\list_item_talkmessage.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_video.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\list_item_video.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_full_curtain.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_socialize_full_curtain.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_xq.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_list_xq.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_zb.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_list_zb.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\fmt_zx.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\fmt_zx.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_simple_spinner_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_socialize_simple_spinner_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\add_emp_msg.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\add_emp_msg.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\add_work_exp.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\add_work_exp.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\choose_avatar.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\choose_avatar.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\home_zbvidio.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\home_zbvidio.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\add_workexp_activity.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\add_workexp_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_grid2.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_grid2.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_menu_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_chat_menu_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\nei_wdxq.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\nei_wdxq.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\work_exp.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\work_exp.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_base_alert_dialog_button.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_socialize_base_alert_dialog_button.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_system.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\list_item_system.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_layout.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_full_alert_dialog.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_socialize_full_alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\home_zb.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\home_zb.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\reset_pwd_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\reset_pwd_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_scroll_tab_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_scroll_tab_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\crop_image.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\crop_image.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_bigexpression.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_received_bigexpression.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_bind_select_dialog.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_socialize_bind_select_dialog.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_show_big_image.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_activity_show_big_image.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_alert_dialog.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\add_eduexp_activity.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\add_eduexp_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_wen.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_wen.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_bigexpression.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_sent_bigexpression.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_zbrl.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_list_zbrl.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_work.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\list_item_work.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_selectsalary.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\list_item_selectsalary.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_base_alert_dialog.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_socialize_base_alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_xgsign.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_xgsign.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_location.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_row_received_location.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_placetop.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_placetop.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_wd.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_list_wd.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\fmt_neighbor.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\fmt_neighbor.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\jobplace_search.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\jobplace_search.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_contact_list.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_widget_contact_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\viedio_pl_fragment.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\viedio_pl_fragment.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\jpush_richpush_actionbar_layout.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\jpush_richpush_actionbar_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\view_region.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\view_region.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\edu_describe_activity.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\edu_describe_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_bz_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_bz_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_null.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_list_null.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_activity.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\chat_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\select_salary_activity.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\select_salary_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_bak_platform_item_simple.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_bak_platform_item_simple.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_tstz_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_tstz_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list2.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_list2.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon_tab_bar.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_widget_emojicon_tab_bar.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\nei_bj_tag.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\nei_bj_tag.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\viedio_xq_fragment.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\viedio_xq_fragment.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_myxf.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_myxf.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\work_describe_activity.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\work_describe_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_myconfig2.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\dialog_myconfig2.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\nei_zx.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\nei_zx.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_download.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\activity_download.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_setpsw.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_setpsw.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_xgwork.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_xgwork.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_full_alert_dialog_item.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\umeng_socialize_full_alert_dialog_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_worker.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\list_item_worker.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_work2.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\list_item_work2.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_layout_chat_primary_menu.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\exploded-aar\\mno_ruili_app\\easeUI\\unspecified\\res\\layout\\ease_layout_chat_primary_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_livevideo.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\list_item_livevideo.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_sjz.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\item_sjz.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\my_placetop2.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\my_placetop2.xml"
+    },
+    {
+        "merged": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\build\\intermediates\\res\\merged\\debug\\layout\\launcher.xml",
+        "source": "D:\\Android\\FirstCode\\mno_ruili_app\\mno_ruili_app\\src\\main\\res\\layout\\launcher.xml"
+    }
+]

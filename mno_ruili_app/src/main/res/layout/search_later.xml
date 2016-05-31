@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_salary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"           
+            android:text="薪资"
+            android:textSize="12sp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/tv_exp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="经验"
+            android:textSize="12sp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="发布时间"
+            android:textSize="12sp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/tv_place"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="工作地点"
+            android:textSize="12sp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <mno.mylistview.PullToRefreshList
+         android:id="@+id/mListView"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:divider="@null"
+         android:listSelector="@drawable/selector_button_color_red_noshape" >
+     </mno.mylistview.PullToRefreshList>
+
+</LinearLayout>

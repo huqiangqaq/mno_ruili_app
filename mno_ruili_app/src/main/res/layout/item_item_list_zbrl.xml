@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" >
+           
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0"
+                android:orientation="vertical" >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:gravity="center_horizontal">
+                    <TextView
+                        android:id="@+id/zb_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+                    <!-- 是否为vip -->
+                    <TextView 
+			            android:id="@+id/tv_vipp"
+			            android:layout_width="30dp"
+			            android:layout_height="wrap_content"
+			            android:layout_marginTop="10dp"
+			            android:layout_marginLeft="10dp"
+			            android:background="@drawable/vip_pre"
+			            android:layout_toRightOf="@+id/zb_title"/>
+					<ImageView
+					    android:id="@+id/zb_sc"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_centerInParent="true"
+					    android:layout_gravity="center"
+					    android:layout_marginRight="10dp"
+					    android:layout_alignParentRight="true"
+					    android:background="@drawable/zb_tx2"
+					    android:clickable="true"
+					    android:visibility="gone"/>
+                </RelativeLayout>
+            <TextView
+                android:id="@+id/zb_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#575757"
+                android:textSize="@dimen/default_font_content_size" />
+			<TextView
+			    android:id="@+id/zb_zj"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="left"
+			    android:layout_marginTop="5dp"
+			    android:drawablePadding="10dp"
+			    android:ellipsize="end"
+			    android:gravity="top|left"
+			    android:lines="2"
+			    android:text=""
+			    android:textColor="#575757"
+			    android:textSize="@dimen/default_font_content_size" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:padding="10dp" >
+        </RelativeLayout>
+       </LinearLayout>
+</LinearLayout>

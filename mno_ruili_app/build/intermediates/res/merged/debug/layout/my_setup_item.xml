@@ -1,0 +1,409 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+		<!-- 头部 -->
+		<RelativeLayout
+	    	android:layout_width="match_parent"
+	    	android:layout_height="40dp"  
+	   		android:background="@color/blue_top" >            
+             <TextView              
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="设置"
+                android:textColor="@color/white"
+                android:textSize="@dimen/default_font_title_size" />
+             <ImageView
+                 android:id="@+id/iv_back"
+                 style="@style/style_text_canbut"
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_marginRight="10dp"
+                 android:paddingLeft="5dp"
+                 android:paddingRight="5dp"
+                 android:src="@drawable/all_back" />
+        </RelativeLayout>
+        
+         <TextView                      
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:gravity="center_vertical"
+                 android:text="账户设置"                                    
+                 android:textSize="12sp" />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="0.01dip"
+             android:layout_weight="0"
+             android:background="#7fdcdcdc" />
+         <!-- 修改密码-->
+    	<LinearLayout   
+    	    android:id="@+id/my_xgmm_item"
+            style="@style/style_text_canbut"            
+            android:background="@drawable/selector_button_color_red"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"    
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical" >            
+                <LinearLayout                  
+                  	android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1" >
+                    <TextView 
+                        android:id="@+id/tv_xgmm"                      
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:text="修改密码"
+                        android:textColor="#000"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="@dimen/default_font_content_size" />
+
+                    <ImageView
+                        android:id="@+id/ImageView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="20dp"                     
+                        android:src="@drawable/my_item_go" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dip"
+                    android:layout_weight="0"
+                    android:background="#7fdcdcdc" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView                      
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:gravity="center_vertical"
+                 android:text="推送设置"                                    
+                 android:textSize="12sp" />
+	 	<TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="0.01dip"
+                 android:layout_weight="0"
+                 android:background="#7fdcdcdc" />
+          <!-- 推送设置 -->
+		<LinearLayout
+            style="@style/style_text_canbut"
+            android:background="@drawable/selector_button_color_red"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" 
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+                
+                <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="0dp"
+			        android:layout_weight="4"
+			        android:background="#fff" >
+
+			        <TextView
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_gravity="center"
+			            android:layout_marginLeft="15dp"
+			            android:layout_weight="1"
+			            android:text="推送新闻"
+			            android:textColor="#000"
+			            android:textSize="15sp" />
+        
+					<CheckBox
+					    android:id="@+id/my_xw_but"
+					    style="@style/MyCheckBox"
+					    android:layout_width="60dp"
+					    android:layout_height="wrap_content"
+					    android:layout_alignParentRight="true"
+					    android:layout_centerVertical="true"
+					    android:layout_gravity="center"
+					    android:layout_marginLeft="5dp"
+					    android:layout_marginRight="5dp" />
+
+    			</LinearLayout>
+
+			    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dip"
+                    android:layout_weight="0"
+                    android:background="#7fdcdcdc" />
+
+			    <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="0dp"
+			        android:layout_weight="4"
+			        android:background="#fff" >
+			
+			        <TextView
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_gravity="center"
+			            android:layout_marginLeft="15dp"
+			            android:layout_weight="1"
+			            android:text="推送直播"
+			            android:textColor="#000"
+			            android:textSize="15sp" />
+			        
+					<CheckBox
+					    android:id="@+id/my_zb_but"
+					    style="@style/MyCheckBox"
+					    android:layout_width="60dp"
+					    android:layout_height="wrap_content"
+					    android:layout_alignParentRight="true"
+					    android:layout_centerVertical="true"
+					    android:layout_gravity="center"
+					    android:layout_marginLeft="5dp"
+					    android:layout_marginRight="5dp" />
+			    </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dip"
+                    android:layout_weight="0"
+                    android:background="#7fdcdcdc" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView                      
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"                  
+                    android:text="其他"                                    
+                    android:textSize="12sp" />
+        <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dip"
+                    android:layout_weight="0"
+                    android:background="#7fdcdcdc" />
+        <!-- 缓存清理 -->
+       <LinearLayout
+            android:id="@+id/my_llhc_item"
+            style="@style/style_text_canbut"
+            android:background="@drawable/selector_button_color_red"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"      
+            android:orientation="horizontal" >
+			
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+                <LinearLayout                
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1" >
+
+                    <TextView                        
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:text="清理缓存"
+                        android:textColor="#000"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="@dimen/default_font_content_size" />
+
+                    <TextView
+                        android:id="@+id/tvCache"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="20dp"
+                        android:text="0B"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dip"
+                    android:layout_weight="0"
+                    android:background="#7fdcdcdc" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 帮助 -->
+        <LinearLayout
+            android:id="@+id/my_bz_item"
+            style="@style/style_text_canbut"
+            android:background="@drawable/selector_button_color_red"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"           
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+                <LinearLayout
+                   
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1" >
+                    <TextView                    
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:text="帮助"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#000"
+                        android:textSize="@dimen/default_font_content_size" />
+                    <ImageView                     
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="20dp"                   
+                        android:src="@drawable/my_item_go" />
+                </LinearLayout>             
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 意见反馈 -->
+        <LinearLayout
+            android:id="@+id/my_yjfk_item"
+            style="@style/style_text_canbut"
+            android:background="@drawable/selector_button_color_red"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"            
+            android:orientation="horizontal" >
+            <LinearLayout
+                
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+                <LinearLayout                 
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:text="意见反馈"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#000"
+                        android:textSize="@dimen/default_font_content_size" />
+
+                    <ImageView
+                        android:id="@+id/ImageView02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="20dp"                      
+                        android:src="@drawable/my_item_go" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dip"
+                    android:layout_weight="0"
+                    android:background="#7fdcdcdc" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 给我评分 -->
+        <LinearLayout
+            android:id="@+id/my_gwpf_item"
+            style="@style/style_text_canbut"
+            android:background="@drawable/selector_button_color_red"
+            android:layout_width="match_parent"           
+            android:layout_height="40dp"           
+            android:orientation="horizontal" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+                <LinearLayout                
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1" >
+                    <TextView                      
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:text="给我评分"
+                        android:textColor="#000"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="@dimen/default_font_content_size" />
+                    <ImageView                       
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="20dp"                      
+                        android:src="@drawable/my_item_go" />
+                </LinearLayout>              
+            </LinearLayout>
+        </LinearLayout>
+      
+        <!-- 关于我们 -->
+		<LinearLayout
+            android:id="@+id/my_gywm_item"
+            style="@style/style_text_canbut"
+            android:background="@drawable/selector_button_color_red"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"         
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+                <LinearLayout                 
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1" >
+                    <TextView                       
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:text="关于我们"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#000"
+                        android:textSize="@dimen/default_font_content_size" />
+                    <ImageView
+                        android:id="@+id/ImageView03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="20dp"                      
+                        android:src="@drawable/my_item_go" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dip"
+                    android:layout_weight="0"
+                    android:background="#7fdcdcdc" />
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
+
+

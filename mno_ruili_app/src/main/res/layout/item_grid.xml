@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/selector_button_color_red_noshape"
+    android:gravity="center" >
+
+      <RelativeLayout
+        android:id="@+id/itemsImage"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        
+        >
+
+ <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/itemsIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/itemstext"
+            android:layout_centerHorizontal="true"
+             android:scaleType="fitXY"
+           />
+          
+        <TextView
+            android:id="@+id/itemstext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#ffffff"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="挖掘直通车点击的秘密"
+            android:textColor="@color/black"
+            android:textSize="@dimen/default_font_content_size" />
+
+          <TextView
+              android:id="@+id/itemstext2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_above="@+id/itemstext"
+              android:layout_alignParentLeft="true"
+              android:background="#5f000000"
+              android:paddingLeft="10dp"
+              android:text="直通车不能说的秘密"
+              android:textColor="@color/white"
+              android:textSize="@dimen/default_font_flag_size" />
+
+        </RelativeLayout>
+
+</RelativeLayout>

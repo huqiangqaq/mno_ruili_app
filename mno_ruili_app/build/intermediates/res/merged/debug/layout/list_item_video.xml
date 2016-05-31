@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/itemsImage"
+        android:layout_width="wrap_content"			        
+        android:layout_height="100dip">
+ 		<com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/itemsIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/tv_videoTitle"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"/>
+               
+        <TextView
+            android:id="@+id/tv_videoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_centerHorizontal="true"
+            android:background="#ffffff"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="挖掘直通车点击的秘密"
+            android:textColor="@color/black"
+            android:textSize="@dimen/default_font_content_size" />
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#666666"
+                android:text="讲师："/>
+            <TextView 
+                android:id="@+id/tv_teacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:textSize="10sp"
+                android:textColor="#666666"
+                android:text="马云"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:textColor="#666666"
+                android:text="评分："/>
+            <TextView 
+                android:id="@+id/tv_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:textColor="#666666"
+                android:textSize="10sp"
+                android:text="4.9"/>
+        </RelativeLayout>								          		
+     </RelativeLayout>
+
+</LinearLayout>

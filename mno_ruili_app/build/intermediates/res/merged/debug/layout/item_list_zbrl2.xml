@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+   <LinearLayout
+      android:id="@+id/zbrl_tz"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#eeeeee"    
+      android:orientation="vertical" >
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" 
+          android:gravity="center_horizontal">
+          <TextView
+              android:id="@+id/zbrl_title"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_marginLeft="15dp"
+              android:layout_marginTop="10dp"
+              android:text=""
+              android:textColor="#1f1f1f"
+              android:textSize="16sp" />
+		<!-- 是否为vip -->
+        <TextView 
+            android:id="@+id/tv_vipp"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/vip_pre"
+            android:layout_toRightOf="@+id/zbrl_title"/>
+		<ImageView
+		    android:id="@+id/zb_sc"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_marginTop="10dp"
+		    android:layout_marginRight="20dp"
+		    android:background="@drawable/zb_tx2"
+		    android:clickable="true"
+		    android:visibility="invisible" />
+      </RelativeLayout>
+      <TextView
+          android:id="@+id/zbrl_time"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="15dp"
+          android:layout_marginTop="10dp"
+          android:text=""
+          android:textColor="#666666" />
+      <TextView
+          android:id="@+id/zbrl_zj"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="10dp"
+          android:layout_marginLeft="15dp"
+          android:layout_marginTop="10dp"
+          android:ellipsize="end"
+          android:gravity="top|left"
+          android:maxLines="3"
+          android:text=""
+          android:textColor="#666666" />
+   </LinearLayout>
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:background="#fff"
+       android:text="" />
+</LinearLayout>

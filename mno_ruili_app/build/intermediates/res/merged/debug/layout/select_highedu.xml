@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >    
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp"   
+	    android:background="@color/blue_top" >
+        <mno.ruili_app.ct.CloseButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:src="@drawable/all_back" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="最高学历"
+            android:textColor="@color/white"
+            android:textSize="@dimen/default_font_title_size"/>
+    </RelativeLayout>
+	<ListView 
+	    android:id="@+id/mListView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">	    
+	</ListView>	
+
+</LinearLayout>
+
+
+

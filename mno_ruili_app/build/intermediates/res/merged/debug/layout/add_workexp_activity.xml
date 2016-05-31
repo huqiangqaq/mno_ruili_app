@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/blue_top" >
+        <mno.ruili_app.ct.CloseButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:src="@drawable/all_back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="添加工作经历"
+            android:textColor="@color/white"
+            android:textSize="@dimen/default_font_title_size" />
+    </RelativeLayout>
+    <!-- 入职时间 -->
+	<LinearLayout
+       android:id="@+id/ll_joinWork"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@drawable/selector_button_color_red_noshape"
+ 	   style="@style/style_text_mybut"     
+ 	   android:layout_marginTop="10dp"      
+       android:orientation="horizontal" >
+       <TextView                             
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:text="入职时间"
+           android:textColor="#a7a7a7"
+           android:textSize="@dimen/default_font_content_size" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:layout_gravity="center"
+           android:orientation="vertical" >
+           <LinearLayout                                       
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1" >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_weight="1"
+                   android:orientation="vertical" >
+                   <TextView
+                       android:id="@+id/tv_joinWork"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:gravity="right"
+                       android:layout_marginRight="10dp"
+                       android:hint="请选择入职时间（必填）"
+                       android:text="" />
+               </LinearLayout>
+               <ImageView                      
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginRight="20dp"                       
+                   android:src="@drawable/my_item_go" />
+           </LinearLayout>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0.01dip"
+               android:layout_weight="0"
+               android:background="#7fdcdcdc" />
+       </LinearLayout>
+    </LinearLayout>
+    <!-- 离职时间 -->
+	<LinearLayout
+       android:id="@+id/ll_leaveWork"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@drawable/selector_button_color_red_noshape"
+ 	   style="@style/style_text_mybut"         
+       android:orientation="horizontal" >
+       <TextView                             
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:text="离职时间"
+           android:textColor="#a7a7a7"
+           android:textSize="@dimen/default_font_content_size" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:layout_gravity="center"
+           android:orientation="vertical" >
+           <LinearLayout                                       
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1" >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_weight="1"
+                   android:orientation="vertical" >
+                   <TextView
+                       android:id="@+id/tv_leaveWork"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:gravity="right"
+                       android:layout_marginRight="10dp"
+                       android:hint="请选择离职时间（必填）"
+                       android:text="" />
+               </LinearLayout>
+               <ImageView                      
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginRight="20dp"                       
+                   android:src="@drawable/my_item_go" />
+           </LinearLayout>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0.01dip"
+               android:layout_weight="0"
+               android:background="#7fdcdcdc" />
+       </LinearLayout>
+    </LinearLayout>
+    <!-- 公司 -->
+	<LinearLayout
+       android:id="@+id/ll_company"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@drawable/selector_button_color_red_noshape"	       
+       android:orientation="horizontal" >
+       <TextView                             
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:text="公司"
+           android:textColor="#a7a7a7"
+           android:textSize="@dimen/default_font_content_size" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:layout_gravity="center"
+           android:orientation="vertical" >
+           <LinearLayout                                       
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1" >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_weight="1"
+                   android:orientation="vertical" >
+                   <EditText
+                       android:id="@+id/et_company"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:gravity="right"
+                       android:background="@null"
+                       android:layout_marginRight="20dp"
+                       android:textSize="14sp"
+                       android:hint="请输入公司名称（必填）"
+                       android:text="" />
+               </LinearLayout>
+           </LinearLayout>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0.01dip"
+               android:layout_weight="0"
+               android:background="#7fdcdcdc" />
+       </LinearLayout>
+   </LinearLayout>
+   <!-- 职位 -->
+   <LinearLayout
+       android:id="@+id/ll_position"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@drawable/selector_button_color_red_noshape"
+ 	   style="@style/style_text_mybut"      
+       android:orientation="horizontal" >
+       <TextView                             
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:text="职位"
+           android:textColor="#a7a7a7"
+           android:textSize="@dimen/default_font_content_size" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:layout_gravity="center"
+           android:orientation="vertical" >
+           <LinearLayout                                       
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1" >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_weight="1"
+                   android:orientation="vertical" >
+                   <TextView
+                       android:id="@+id/tv_position"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:gravity="right"
+                       android:layout_marginRight="10dp"
+                       android:hint="请选择职位（必填）"
+                       android:text="" />
+               </LinearLayout>
+               <ImageView                      
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginRight="20dp"                       
+                   android:src="@drawable/my_item_go" />
+           </LinearLayout>          
+       </LinearLayout>
+    </LinearLayout>
+    <!--  <EditText
+        android:id="@+id/et_position" 
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="若没有合适的职位，请在此处填写"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:background="#ffffff"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.01dip"
+        android:layout_weight="0"
+        android:background="#7fdcdcdc" />
+    <!-- 工作描述 -->
+	<LinearLayout
+       android:id="@+id/ll_workDescribe"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@drawable/selector_button_color_red_noshape"
+ 	   style="@style/style_text_mybut"      
+       android:orientation="horizontal" >
+       <TextView                             
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:text="工作描述"
+           android:textColor="#a7a7a7"
+           android:textSize="@dimen/default_font_content_size" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:layout_gravity="center"
+           android:orientation="vertical" >
+           <LinearLayout                                       
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1" >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_weight="1"
+                   android:orientation="vertical" >
+                   <TextView
+                       android:id="@+id/tv_workDescribe"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:gravity="right"
+                       android:layout_marginRight="10dp"
+                       android:hint="请输入工作描述"
+                       android:singleLine="true"
+                       android:text="" />
+               </LinearLayout>
+               <ImageView                      
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginRight="20dp"                       
+                   android:src="@drawable/my_item_go" />
+           </LinearLayout>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0.01dip"
+               android:layout_weight="0"
+               android:background="#7fdcdcdc" />
+       </LinearLayout>
+    </LinearLayout>
+     <TextView
+	    android:id="@+id/tv_ok"
+	    android:gravity="center"
+	    android:layout_width="match_parent"
+	    android:layout_height="30dp"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+		android:layout_marginTop="30dp"
+	    android:background="@drawable/radius_orange"
+	    android:text="完成"
+	    android:textColor="@color/white"
+	    android:textSize="14sp" />
+</LinearLayout>

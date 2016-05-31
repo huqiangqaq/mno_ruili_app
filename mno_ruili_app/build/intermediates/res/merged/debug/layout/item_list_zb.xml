@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+	<!-- 视频类型标题 (直播预告，今日直播，往期内容三个标题)-->
+    <LinearLayout
+        android:id="@+id/zb_bt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white_f5"
+        android:clickable="true"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/zb_color"
+            android:layout_width="12dp"
+            android:layout_height="match_parent"
+            android:background="@color/blue"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/zb_bt_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical"
+            android:text="直播预告"
+            android:textColor="#979797"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/zb_bt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:text="2015年5月17日"
+            android:textColor="#979797"
+            android:visibility="gone" />
+
+    </LinearLayout>
+	<!-- 正在直播 和往期内容-->
+    <LinearLayout
+        android:id="@+id/itemsImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <RelativeLayout          
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_margin="10dp" >
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/itemsIcon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY" />
+			<TextView 
+	            android:id="@+id/tv_vipv"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"	            
+	            android:layout_alignParentTop="true"
+	            android:layout_alignParentRight="true"            
+	            android:background="@drawable/vip_video"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:background="#7f000000"
+                android:paddingLeft="10dp" >
+
+                <TextView
+                    android:id="@+id/itemstext2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/view_zt"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="老师教你拳打南山敬老院   脚踢北海幼儿园"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/isend"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="#7f000000"
+                android:gravity="center"
+                android:text="直播已结束"
+                android:textColor="#fff"
+               android:visibility="gone"  />
+
+        </RelativeLayout>
+
+		<TextView
+		    android:id="@+id/textView3"
+		    android:layout_width="match_parent"
+		    android:layout_height="0.2dip"
+		    android:background="#d2d2d2"
+		    android:text="" />
+
+		<LinearLayout
+		    style="@style/style_text_mybut"
+		    android:id="@+id/last"
+		    android:layout_width="match_parent"
+		    android:layout_height="48dp"
+		    android:layout_weight="0"
+		    android:gravity="left" >
+           <TextView
+               android:id="@+id/textView2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginLeft="10dp"
+               android:text="更多往期内容已放入免费视频专区，请前往查看"
+               android:textColor="#b7b7b7"
+               android:textSize="14sp" />
+		</LinearLayout>
+    </LinearLayout>
+    <!-- 直播预告 -->
+    <RelativeLayout
+        android:id="@+id/zb_item_yg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:visibility="visible" >
+        <TextView
+            android:id="@+id/zb_item_yg_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"            
+            android:text="挖掘直通车点击秘密"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <TextView 
+            android:id="@+id/tv_vipp"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/vip_pre"
+            android:layout_toRightOf="@+id/zb_item_yg_title"/>
+        <TextView
+            android:id="@+id/zb_item_yg_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"            
+            android:layout_toLeftOf="@+id/zb_sc"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="20:00-22:00"
+            android:textColor="@color/black"
+            android:textSize="@dimen/default_font_content_size" />
+        <ImageView
+            android:id="@+id/zb_sc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/zb_tx2"
+            android:clickable="true" />
+    </RelativeLayout>
+</LinearLayout>

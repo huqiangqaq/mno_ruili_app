@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/my_content_view"
+    android:orientation="vertical" >
+
+     <mno.ruili_app.BclViewPager
+         android:id="@+id/indexpager"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:flipInterval="30"
+         android:persistentDrawingCache="animation" >
+     </mno.ruili_app.BclViewPager>
+	<!-- 课堂 -->
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0"
+	    android:background="@color/white_f9"
+	    android:orientation="horizontal" >
+		 <LinearLayout
+		     android:layout_width="0dp"
+		     android:layout_height="match_parent"
+		     android:layout_weight="1.0"
+		     android:gravity="center" 
+		     android:orientation="vertical" >	     
+		     <TextView
+		         android:id="@+id/but_index_home"
+		         style="@style/style_text_holo"
+		         android:drawableTop="@drawable/home_down"
+		         android:text="@string/index_home"
+		         android:textColor="@color/orange" />                 
+	    </LinearLayout>
+	    <!-- 人才广场 -->
+	    <LinearLayout
+		     android:layout_width="0dp"
+		     android:layout_height="match_parent"
+		     android:layout_weight="1.0"
+		     android:gravity="center"
+		     android:orientation="vertical" >
+	         <RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1.0" >
+	            <TextView
+	                android:id="@+id/but_index_place"
+	                style="@style/style_text_holo"
+	                android:drawableTop="@drawable/rcgc_up"
+	                android:text=" 人才广场"
+	                android:gravity="center"
+	                android:textColor="@color/gray" />	
+	            <TextView
+	                android:id="@+id/tsplace"
+	                android:layout_width="22dp"
+	                android:layout_height="22dp"
+	                android:layout_alignParentRight="true"
+	                android:layout_alignTop="@+id/but_index_place"
+	                android:layout_marginRight="28dp"
+	                android:layout_marginTop="2dp"
+	                android:textSize="10sp"
+	                android:gravity="center"
+	                android:layout_centerInParent="true"
+	                android:background="@drawable/myxx"
+	                android:visibility="invisible" />
+	       	</RelativeLayout>                 
+	     </LinearLayout>
+	     <!-- 社区 -->
+	    <LinearLayout
+		     android:layout_width="0dp"
+		     android:layout_height="match_parent"
+		     android:layout_weight="1.0"
+		     android:gravity="center"
+		     android:orientation="vertical" >	     
+		     <TextView
+		         android:id="@+id/but_index_neighbor"
+		         style="@style/style_text_holo"
+		         android:drawableTop="@drawable/neighbor_up"
+		         android:text="@string/index_neighbor"
+		         android:textColor="@color/gray" />                 
+	     </LinearLayout>	
+	     <!-- 我的 -->
+	     <LinearLayout
+		     android:layout_width="0dp"
+		     android:layout_height="match_parent"
+		     android:layout_weight="1.0"
+		     android:gravity="center"
+		     android:orientation="vertical" >
+	         <RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1.0" >			
+	            <TextView
+	                android:id="@+id/but_index_my"
+	                style="@style/style_text_holo"
+	                android:drawableTop="@drawable/my_up1"
+	                android:text="@string/index_my"
+	                android:textColor="@color/gray" />
+	
+	            <TextView
+	                android:id="@+id/tsimg"
+	                android:layout_width="22dp"
+	                android:layout_height="22dp"
+	                android:layout_alignParentRight="true"
+	                android:layout_alignTop="@+id/but_index_my"
+	                android:layout_marginRight="28dp"
+	                android:layout_marginTop="2dp"
+	                android:textSize="10sp"
+	                android:gravity="center"
+	                android:layout_centerInParent="true"
+	                android:background="@drawable/myxx"
+	                android:visibility="invisible" />
+        	</RelativeLayout>                 
+         </LinearLayout> 
+     </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_f5"
+    android:orientation="vertical" >
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp"  
+	    android:background="@color/blue_top" >
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:padding="5dp"/>
+
+             <TextView
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/index_neighbor"
+                android:textColor="@color/white"
+                android:textSize="@dimen/default_font_title_size"
+                 />
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_alignParentRight="true"
+                 android:layout_alignParentTop="true" >
+
+                 <ImageView
+                     android:id="@+id/nei_find"
+                     style="@style/style_text_canbut"
+                     android:layout_width="wrap_content"
+                     android:layout_height="match_parent"
+                     android:layout_marginRight="10dp"
+                     android:paddingLeft="5dp"
+                     android:paddingRight="5dp"
+                     android:src="@drawable/nei_find" />
+
+                 <ImageView
+                     android:id="@+id/nei_bj"
+                     style="@style/style_text_canbut"
+                     android:layout_width="wrap_content"
+                     android:layout_height="match_parent"
+                     android:layout_marginRight="10dp"
+                     android:paddingLeft="5dp"
+                     android:paddingRight="5dp"
+                     android:src="@drawable/nei_bj"
+                     android:visibility="gone" />
+
+             </LinearLayout>
+
+        </RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/nei_zx"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:onClick="onclick"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/but_nei_zx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:drawableLeft="@drawable/nei_zx"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="资讯"
+            android:textColor="@color/orange"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/bz_nei_zx"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:layout_weight="0"
+            android:background="@color/orange"
+            android:text="" />
+
+    </LinearLayout>
+     <TextView
+           
+            android:layout_width="0.1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="#dcdcdc"
+            android:text="" />
+  <LinearLayout
+      android:id="@+id/nei_wd"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_weight="1.0"
+      android:onClick="onclick"
+      android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/but_nei_wd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:drawableLeft="@drawable/nei_wd"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="问答"
+            android:textColor="@color/gray_91"
+            android:textSize="15sp" />
+
+<TextView
+            android:id="@+id/bz_nei_wd"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:layout_weight="0"
+           
+            android:text="" />
+    </LinearLayout>
+</LinearLayout>
+<mno.ruili_app.BclViewPager
+         android:id="@+id/nei_pager"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:flipInterval="30"
+         android:persistentDrawingCache="animation" >
+
+     </mno.ruili_app.BclViewPager>
+</LinearLayout>

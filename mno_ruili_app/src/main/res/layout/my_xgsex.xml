@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+    
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp"   
+	    android:background="@color/blue_top" >
+            <mno.ruili_app.ct.CloseButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/all_back" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="修改性别"
+                android:textColor="@color/white"
+                android:textSize="@dimen/default_font_title_size"/>
+
+            <TextView
+                android:id="@+id/my_but_ok"
+                style="@style/style_text_mybut"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="20dp"
+                android:text="保存"
+                android:textColor="@color/white"
+                android:textSize="@dimen/default_font_content_size" />
+
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/select"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/select1"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#fff"
+                android:button="@null"
+                android:drawableRight="@drawable/but_selector"
+                android:gravity="left|center_vertical"
+                android:padding="10dp"
+                android:text="男"
+                android:textColor="#585858" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.1dip"
+                android:background="#eeeeee" />
+
+            <RadioButton
+                android:id="@+id/select2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="1dp"
+                android:background="#fff"
+                android:button="@null"
+                android:drawableRight="@drawable/but_selector"
+                android:gravity="left|center_vertical"
+                android:padding="10dp"
+                android:text="女"
+                android:textColor="#585858" />
+
+        </RadioGroup>
+
+</LinearLayout>
+

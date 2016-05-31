@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/blue_top" >
+        <mno.ruili_app.ct.CloseButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:src="@drawable/all_back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="添加岗位信息"
+            android:textColor="@color/white"
+            android:textSize="@dimen/default_font_title_size" />
+    </RelativeLayout>
+    <!-- 选择职业 -->
+    <LinearLayout
+       android:id="@+id/ll_jobName"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@drawable/selector_button_color_red_noshape"
+ 	   style="@style/style_text_mybut"     
+ 	   android:layout_marginTop="5dp"      
+       android:orientation="horizontal" >
+       <TextView                             
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:text="岗位名称"
+           android:textColor="#a7a7a7"
+           android:textSize="@dimen/default_font_content_size" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:layout_gravity="center"
+           android:orientation="vertical" >
+           <LinearLayout                                       
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1" >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_weight="1"
+                   android:orientation="vertical" >
+                   <TextView
+                       android:id="@+id/tv_jobName"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:gravity="right"
+                       android:layout_marginRight="10dp"
+                       android:hint="请选择工作种类(必填)"
+                       android:text="" />
+               </LinearLayout>
+               <ImageView                      
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginRight="20dp"                       
+                   android:src="@drawable/my_item_go" />
+           </LinearLayout>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0.01dip"
+               android:layout_weight="0"
+               android:background="#7fdcdcdc" />
+       </LinearLayout>
+    </LinearLayout>
+	<!-- 工作经验 -->
+	<LinearLayout
+       android:id="@+id/ll_workExp"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@drawable/selector_button_color_red_noshape"
+ 	   style="@style/style_text_mybut"     
+ 	   android:layout_marginTop="10dp"      
+       android:orientation="horizontal" >
+       <TextView                             
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:text="工作经验"
+           android:textColor="#a7a7a7"
+           android:textSize="@dimen/default_font_content_size" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:layout_gravity="center"
+           android:orientation="vertical" >
+           <LinearLayout                                       
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1" >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_weight="1"
+                   android:orientation="vertical" >
+                   <TextView
+                       android:id="@+id/tv_workExp"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:gravity="right"
+                       android:layout_marginRight="10dp"
+                       android:hint="请选择工作经验(必填)"
+                       android:text="" />
+               </LinearLayout>
+               <ImageView                      
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginRight="20dp"                       
+                   android:src="@drawable/my_item_go" />
+           </LinearLayout>           
+       </LinearLayout>       
+    </LinearLayout>
+    <TextView
+          android:layout_width="match_parent"
+          android:layout_height="0.01dip"
+          android:background="#7fdcdcdc" />
+    <!-- 学历要求 -->
+	<LinearLayout
+       android:id="@+id/ll_edu"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@drawable/selector_button_color_red_noshape"
+ 	   style="@style/style_text_mybut"         
+       android:orientation="horizontal" >
+       <TextView                             
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:text="学历要求"
+           android:textColor="#a7a7a7"
+           android:textSize="@dimen/default_font_content_size" />
+      <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:layout_gravity="center"
+           android:orientation="vertical" >
+           <LinearLayout                                       
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1" >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_weight="1"
+                   android:orientation="vertical" >
+                   <TextView
+                       android:id="@+id/tv_edu"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:gravity="right"
+                       android:layout_marginRight="10dp"
+                       android:hint="请选择学历要求(必填)"
+                       android:text="" />
+               </LinearLayout>
+               <ImageView                      
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginRight="20dp"                       
+                   android:src="@drawable/my_item_go" />
+           </LinearLayout>
+       </LinearLayout>
+    </LinearLayout>
+    <TextView
+          android:layout_width="match_parent"
+          android:layout_height="0.01dip"
+          android:background="#7fdcdcdc" />
+    <!-- 工作地点 -->
+	<LinearLayout
+       android:id="@+id/ll_position"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@drawable/selector_button_color_red_noshape"
+ 	   style="@style/style_text_mybut"      
+       android:orientation="horizontal" >
+       <TextView                             
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:text="工作地点"
+           android:textColor="#a7a7a7"
+           android:textSize="@dimen/default_font_content_size" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:layout_gravity="center"
+           android:orientation="vertical" >
+           <LinearLayout                                       
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1" >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_weight="1"
+                   android:orientation="vertical" >
+                   <TextView
+                       android:id="@+id/tv_position"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:gravity="right"
+                       android:layout_marginRight="10dp"
+                       android:hint="请选择工作地点(必填)"
+                       android:text="" />
+               </LinearLayout>
+               <ImageView                      
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginRight="20dp"                       
+                   android:src="@drawable/my_item_go" />
+           </LinearLayout>          
+       </LinearLayout>
+    </LinearLayout>
+    <TextView
+          android:layout_width="match_parent"
+          android:layout_height="0.01dip"
+          android:background="#7fdcdcdc" />
+   <!-- 薪资范围 -->
+   <LinearLayout
+       android:id="@+id/ll_salary"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@drawable/selector_button_color_red_noshape"
+ 	   style="@style/style_text_mybut"      
+       android:orientation="horizontal" >
+       <TextView                             
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:text="薪资范围"
+           android:textColor="#a7a7a7"
+           android:textSize="@dimen/default_font_content_size" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:layout_gravity="center"
+           android:orientation="vertical" >
+           <LinearLayout                                       
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1" >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_weight="1"
+                   android:orientation="vertical" >
+                   <TextView
+                       android:id="@+id/tv_salary"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:gravity="right"
+                       android:layout_marginRight="10dp"
+                       android:hint="请选择薪资范围(必填)"
+                       android:text="" />
+               </LinearLayout>
+               <ImageView                      
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginRight="20dp"                       
+                   android:src="@drawable/my_item_go" />
+           </LinearLayout>          
+       </LinearLayout>
+    </LinearLayout>
+    <!--岗位职责  -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView 
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange"
+            android:text="岗位职责:"/>
+        <mno.ruili_app.ct.CustomEditText
+            android:id="@+id/cet_jobDuty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.2dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="请输入岗位职责(必填)"
+            android:inputType="none"
+            android:padding="10dp"
+            android:textColorHint="#b7b7b7"
+            android:textSize="12sp" >		
+        </mno.ruili_app.ct.CustomEditText>
+    </LinearLayout>
+    <!--岗位要求  -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView 
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange"
+            android:text="岗位要求:"/>
+        <mno.ruili_app.ct.CustomEditText
+            android:id="@+id/cet_jobAsk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.2dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="请输入岗位要求(必填)"
+            android:inputType="none"
+            android:padding="10dp"
+            android:textColorHint="#b7b7b7"
+            android:textSize="12sp" >		
+        </mno.ruili_app.ct.CustomEditText>
+    </LinearLayout>
+    <TextView
+	    android:id="@+id/tv_ok"
+	    android:gravity="center"
+	    android:layout_width="match_parent"
+	    android:layout_height="30dp"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+		android:layout_marginTop="20dp"
+	    android:background="@drawable/radius_orange"
+	    android:text="完成"
+	    android:textColor="@color/white"
+	    android:textSize="14sp" />
+</LinearLayout>

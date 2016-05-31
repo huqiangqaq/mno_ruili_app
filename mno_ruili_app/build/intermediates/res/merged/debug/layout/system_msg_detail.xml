@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_ctm"
+    style="@style/style_text_mybut"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!--头部  -->
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp"
+	    android:layout_marginTop="0dp"
+	    android:background="@color/blue_top">	
+	    <mno.ruili_app.ct.CloseButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/all_back" />	   	   		   		  	
+	</RelativeLayout>
+	<!--内容  -->
+	<ScrollView 
+	    android:id="@+id/sv_msg"
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent">
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical">
+		    <TextView 
+		        android:id="@+id/tv_title"
+		        android:layout_width="wrap_content"
+		        android:layout_height="48dp"/>
+		    <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="0.01dip"
+	            android:layout_weight="0"
+	            android:background="#7fdcdcdc" />
+		    <com.android.volley.toolbox.NetworkImageView
+	            android:id="@+id/iv_image"
+	            android:layout_width="400dp"
+	            android:layout_height="100dp"
+	            android:scaleType="centerCrop"
+	            android:layout_gravity="center"/>
+		    <TextView 
+		        android:id="@+id/tv_content"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"/>
+	    </LinearLayout>
+	</ScrollView>
+</LinearLayout>
+

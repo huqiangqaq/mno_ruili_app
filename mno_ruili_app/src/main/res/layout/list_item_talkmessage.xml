@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal" >
+    <RelativeLayout
+         android:id="@+id/my_login_imagebox"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical"  
+         android:layout_marginLeft="10dp"          
+         android:background="@drawable/imagebox"
+         android:orientation="vertical" > 
+      <mno.ruili_app.ct.RoundImageView
+          android:id="@+id/iv_photo"
+          android:layout_width="30dp"
+          android:layout_height="30dp" />
+     </RelativeLayout> 
+     <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_gravity="center_vertical"  
+         android:orientation="vertical">
+	     <RelativeLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <TextView 
+                android:id="@+id/tv_nickName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textSize="10sp"
+                android:text="刘备"/>
+            <TextView 
+                android:id="@+id/tv_updateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                       
+                android:layout_marginRight="5dp"
+                android:textSize="10sp"
+                android:layout_alignParentRight="true"
+                android:text="今天发布"/>
+        </RelativeLayout>
+        <TextView 
+            android:layout_marginTop="5dp"
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="好的，等你消息"/>
+     </LinearLayout>
+</LinearLayout>

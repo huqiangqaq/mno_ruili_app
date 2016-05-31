@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" >
+
+              <RelativeLayout
+                  android:id="@+id/relativeLayout1"
+                  android:layout_width="match_parent"
+                  android:layout_height="48dp"
+                  android:layout_alignParentLeft="true"
+                  android:layout_alignParentTop="true"
+                  android:background="@color/blue_top" >
+
+                 <ImageView
+            android:id="@+id/back"
+            style="@style/style_text_mybut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:src="@drawable/all_back" />
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerHorizontal="true"
+                      android:layout_centerVertical="true"
+                      android:text="发布问题"
+                      android:textColor="@color/white"
+                      android:textSize="@dimen/default_font_title_size" />
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:layout_alignParentRight="true"
+                      android:layout_alignParentTop="true" >
+
+                      <TextView
+                          android:id="@+id/but_wd_next"
+                          style="@style/style_text_mybut"
+                          android:layout_width="wrap_content"
+                          android:layout_height="match_parent"
+                          android:paddingRight="10dp"
+                          android:text="下一步"
+                          android:textColor="@color/white"
+                          android:textSize="14sp" />
+                  </LinearLayout>
+              </RelativeLayout>
+
+ 			<EditText
+                  android:id="@+id/nei_bj_edi"
+                  android:layout_width="match_parent"
+                  android:layout_height="200dp"
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginTop="58dp"
+                  android:background="@color/white"
+                  android:ems="10"
+                  android:gravity="left|top"
+                  android:hint="请输入问题描述，1500字以内"
+                  android:inputType="textMultiLine"
+                  android:maxLength="1500"
+                  android:maxLines="10"
+                  android:minLines="10"
+                  android:padding="10dp"
+                  android:textColorHint="#b7b7b7"
+                  android:textColor="#383838"
+                  android:textSize="15sp" >
+                  
+              </EditText>
+  				<!-- 悬赏分和添加图片 -->
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true"
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginBottom="0dp"
+                  android:orientation="vertical" >
+ 				<TextView
+                      android:layout_width="match_parent"
+                      android:layout_weight="0"
+                      android:layout_height="0.5dip"
+                      android:background="#c9c9c9" />
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal" >
+
+                      <ImageView
+                          android:id="@+id/nei_bj_img"
+                          style="@style/style_text_mybut"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+                          android:padding="10dp"
+                          android:src="@drawable/nei_bj_img" />
+
+                      <ImageView
+                          android:id="@+id/nei_bj_jf"
+                          style="@style/style_text_mybut"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:padding="10dp"
+                          android:src="@drawable/nei_bj_jf" />
+                      <!-- 悬赏分的数值显示 -->
+                      <TextView 
+                          android:id="@+id/tv_score"
+                          style="@style/style_text_mybut"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:padding="10dp"
+                          android:textSize="14sp"
+                          android:text=""/>
+                  </LinearLayout>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0.5dip"
+                      android:background="#c9c9c9" />
+
+                  <RelativeLayout
+                      android:id="@+id/relativeLayout2"
+                      android:layout_width="match_parent"
+                      android:layout_height="200dp"
+                      android:background="#fbfcff"
+                      android:visibility="gone" >
+
+                      <ImageView
+                          android:id="@+id/nei_bj_addimg"
+                          style="@style/style_text_mybut"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_centerHorizontal="true"
+                          android:layout_centerVertical="true"
+                          android:src="@drawable/nei_bj_addimg"
+                          android:visibility="gone" />
+
+                      <LinearLayout
+                          android:id="@+id/nei_bj_addview"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_alignParentTop="true"
+                          android:layout_centerHorizontal="true"
+                          android:layout_marginTop="10dp"
+                          android:orientation="vertical"
+                          android:visibility="gone" >
+
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="10dp"
+                              android:text="选择悬赏分值："
+                              android:textColor="#7a7a7a"
+                              android:textSize="13sp" />
+
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginTop="20dp"
+                              android:orientation="horizontal" >
+
+                              <LinearLayout
+                                  android:layout_width="100dp"
+                                  android:layout_height="wrap_content"
+                                  android:layout_gravity="center"
+                                  android:layout_weight="1"
+                                  android:orientation="vertical" >
+
+                                  <TextView
+                                      android:id="@+id/but_0"
+                                      style="@style/style_text_nei_jf_but"
+                                      android:text="0" />
+                              </LinearLayout>
+
+                              <LinearLayout
+                                  android:layout_width="100dp"
+                                  android:layout_height="wrap_content"
+                                  android:layout_weight="1"
+                                  android:orientation="vertical" >
+
+                                  <TextView
+                                      android:id="@+id/but_5"
+                                      style="@style/style_text_nei_jf_but"
+                                      android:text="5" />
+                              </LinearLayout>
+
+                              <LinearLayout
+                                  android:layout_width="100dp"
+                                  android:layout_height="wrap_content"
+                                  android:layout_weight="1"
+                                  android:orientation="vertical" >
+
+                                  <TextView
+                                      android:id="@+id/but_10"
+                                      style="@style/style_text_nei_jf_but"
+                                      android:text="10" />
+                              </LinearLayout>
+
+                              <LinearLayout
+                                  android:layout_width="100dp"
+                                  android:layout_height="wrap_content"
+                                  android:layout_weight="1"
+                                  android:orientation="vertical" >
+
+                                  <TextView
+                                      android:id="@+id/but_20"
+                                      style="@style/style_text_nei_jf_but"
+                                      android:text="20" />
+                              </LinearLayout>
+                          </LinearLayout>
+
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginTop="10dp"
+                              android:orientation="horizontal" >
+
+                              <LinearLayout
+                                  android:layout_width="100dp"
+                                  android:layout_height="wrap_content"
+                                  android:layout_weight="1"
+                                  android:orientation="vertical" >
+
+                                  <TextView
+                                      android:id="@+id/but_30"
+                                      style="@style/style_text_nei_jf_but"
+                                      android:text="30" />
+                              </LinearLayout>
+
+                              <LinearLayout
+                                  android:layout_width="100dp"
+                                  android:layout_height="wrap_content"
+                                  android:layout_weight="1"
+                                  android:orientation="vertical" >
+
+                                  <TextView
+                                      android:id="@+id/but_50"
+                                      style="@style/style_text_nei_jf_but"
+                                      android:text="50" />
+                              </LinearLayout>
+
+                              <LinearLayout
+                                  android:layout_width="100dp"
+                                  android:layout_height="wrap_content"
+                                  android:layout_weight="1"
+                                  android:orientation="vertical" >
+
+                                  <TextView
+                                      android:id="@+id/but_70"
+                                      style="@style/style_text_nei_jf_but"
+                                      android:text="70" />
+                              </LinearLayout>
+
+                              <LinearLayout
+                                  android:layout_width="100dp"
+                                  android:layout_height="wrap_content"
+                                  android:layout_weight="1"
+                                  android:orientation="vertical" >
+
+                                  <TextView
+                                      android:id="@+id/but_100"
+                                      style="@style/style_text_nei_jf_but"
+                                      android:text="100" />
+                              </LinearLayout>
+                          </LinearLayout>
+
+                          <TextView
+                              android:id="@+id/textView1"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_gravity="center"
+                              android:layout_marginTop="20dp"
+                              android:text="设置悬赏分值，可有有效增加问题回答率"
+                              android:textColor="#7a7a7a"
+                              android:textSize="12sp" />
+                      </LinearLayout>
+
+                      <HorizontalScrollView
+                          android:id="@+id/horizontalScrollView1"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_centerHorizontal="true"
+                          android:layout_centerVertical="true" >
+
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:orientation="horizontal" >
+
+                              <GridView
+                                  android:id="@+id/myGrid"
+                                  android:layout_width="match_parent"
+                                  android:layout_height="match_parent"
+                                  android:layout_marginBottom="10dp"
+                                  android:layout_marginLeft="5dp"
+                                  android:layout_marginRight="5dp"
+                                  android:layout_marginTop="10dp"
+                                  android:gravity="center"
+                                  android:horizontalSpacing="0dp"
+                                  android:listSelector="@android:color/transparent"
+                                  android:numColumns="5"
+                                  android:stretchMode="columnWidth"
+                                  android:verticalSpacing="10dp"
+                                  android:visibility="gone" >
+                              </GridView>
+
+                          </LinearLayout>
+                      </HorizontalScrollView>
+
+                  </RelativeLayout>
+              </LinearLayout>
+
+          </RelativeLayout>
+
+</LinearLayout>

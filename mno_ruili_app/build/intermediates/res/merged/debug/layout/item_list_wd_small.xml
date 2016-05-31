@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:descendantFocusability="blocksDescendants"
+    android:background="@drawable/selector_button_color_red_noshape"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- <mno.ruili_app.ct.RoundimgView
+            android:id="@+id/nei_wd_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:focusable="false"         
+               android:background="#00FFFFFF" >
+            
+            </mno.ruili_app.ct.RoundimgView> -->
+ 			<RelativeLayout
+                    android:id="@+id/my_login_imagebox"
+                    android:layout_width="50dp"
+            		android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+            		android:layout_marginTop="10dp"
+                  
+                    android:background="@drawable/my_up"
+                    android:orientation="vertical" >
+                    
+            <mno.ruili_app.ct.RoundImageView
+                    android:id="@+id/nei_wd_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#00FFFFFF" 
+                   />
+                </RelativeLayout>
+
+          
+       
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/wdname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小小鱼的提问"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/wdhd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text=""
+                     android:textSize="15sp"
+                    android:textColor="#424242" />
+
+            </LinearLayout>
+
+            
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+ <!-- android:drawableLeft="@drawable/wd_money" -->
+                <TextView
+                    android:id="@+id/wdtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                   
+                    android:drawablePadding="2dp"
+                    android:text="刚刚"
+                    android:textSize="10sp"
+                    android:textColor="#7a7a7a"
+                    />
+
+            </LinearLayout>
+            
+        </LinearLayout>
+
+ <TextView
+     android:id="@+id/wdzt"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginRight="10dp"
+     android:background="@drawable/view_line_tm"
+     android:drawableLeft="@drawable/nei_hdok"
+     android:padding="5dp"
+     android:text="已解决"
+     android:textColor="#ababab" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/wd_fs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/wd_xs"
+            android:drawablePadding="3dp"
+            android:text="100"
+            android:textColor="#ff4e00" />
+
+        <TextView
+            android:id="@+id/wdcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="             如何加到高质量的粉丝？如何加到高质量的粉丝？如何加到高质量的粉丝？....."
+            android:maxLines="3"
+            android:textColor="#424242"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/best"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="true"
+        android:background="@drawable/selector_button_wdzj"
+        
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/wdbestname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:textColor="@color/blue"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/wdbeshd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text=""
+                android:textSize="14sp" 
+                android:textColor="#424242" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/wdbestcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp" 
+            android:text=""
+            android:textColor="#797979" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/wd_tag" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+     
+
+            <TextView
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0"
+                android:text="视觉 	整店推广"
+                android:textColor="#ababab" />
+
+            <!-- <GridView
+                android:id="@+id/wd_tag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="5" >
+
+            </GridView> -->
+<mno.ruili_app.ct.HorizontalListView
+android:id="@+id/wd_tag"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentTop="true"
+android:layout_marginTop="1dp"
+>
+                </mno.ruili_app.ct.HorizontalListView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/wdrs"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/view_line_tm"
+            android:drawableLeft="@drawable/nei_hdrs"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:text="1"
+             android:textColor="@color/blue" />
+
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#eeeeee"
+        android:text="" />
+
+</LinearLayout>
+
+

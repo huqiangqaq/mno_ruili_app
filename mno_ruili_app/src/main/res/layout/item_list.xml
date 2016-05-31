@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+     android:background="@drawable/selector_button_color_red_noshape"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_centerHorizontal="true"
+        android:background="#dcdcdc"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <CheckBox
+            android:id="@+id/cbCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:button="@drawable/checkbox_checked_style"
+            android:focusable="false"
+            android:padding="5dp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/itemsImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.android.volley.toolbox.NetworkImageView  
+                android:id="@+id/itemsIcon"
+                android:layout_width="110dp"
+                android:layout_height="75dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:id="@+id/right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/itemsIcon"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/itemstext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="从武林大会看阿里妈妈变化"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/itemstext2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="包教包会，学不会加入黑社会,包教包会，学不会加入黑社会"
+                    android:textColor="#bbbbbb"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/itemstext3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/itemsIcon"
+                android:layout_alignRight="@+id/itemsIcon"
+                android:background="#9f000000"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="2dp"
+                android:text="20:00"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

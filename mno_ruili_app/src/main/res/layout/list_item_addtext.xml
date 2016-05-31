@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/et_addtext"
+    android:layout_width="70dp"
+    android:layout_height="20dp"
+    android:background="@drawable/tv_bg"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    android:textSize="10sp"
+    android:textColor="#ffffff"
+    android:maxLength="6"
+    android:hint="请输入亮点">    
+</EditText>

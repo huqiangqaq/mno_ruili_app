@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/easeUI/easeUI.iml" filepath="$PROJECT_DIR$/easeUI/easeUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mno_ruili_app.iml" filepath="$PROJECT_DIR$/mno_ruili_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mno_ruili_app/mno_ruili_app-mno_ruili_app.iml" filepath="$PROJECT_DIR$/mno_ruili_app/mno_ruili_app-mno_ruili_app.iml" />
+    </modules>
+  </component>
+</project>

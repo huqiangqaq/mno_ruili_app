@@ -1,0 +1,1222 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:2:1-762:12
+	package
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:7:5-74
+MERGED from [mno_ruili_app:easeUI:unspecified] D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\exploded-aar\mno_ruili_app\easeUI\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.2.1] D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:7:42-71
+		INJECTED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:7:15-41
+		INJECTED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml
+permission#mno.ruili_app.permission.JPUSH_MESSAGE
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:8:6-10:47
+	android:protectionLevel
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:10:9-44
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:9:9-62
+uses-permission#android.permission.CAMERA
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:11:7-67
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:11:24-64
+uses-feature#android.hardware.camera
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:13:5-60
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:13:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:14:5-70
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:14:19-67
+uses-feature#android.hardware.camera.flash
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:15:19-63
+uses-permission#android.permission.RECORD_VIDEO
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:17:5-71
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:17:22-68
+uses-permission#mno.ruili_app.permission.JPUSH_MESSAGE
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:19:6-79
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:19:23-76
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:20:6-80
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:20:23-77
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:21:6-81
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:21:23-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:22:6-74
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:22:23-71
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:23:6-85
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:23:23-82
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:25:4-86
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:25:21-84
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:27:5-79
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:27:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:28:5-89
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:28:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:29:5-79
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:29:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:32:2-64
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:32:19-61
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:33:2-72
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:33:19-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:34:2-76
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:34:19-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:35:2-78
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:35:19-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:36:5-81
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:36:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:37:5-76
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:37:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:38:5-76
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:38:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:40:5-68
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:40:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:41:5-66
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:41:22-63
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:42:5-71
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:42:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:43:5-72
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:43:22-69
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:44:5-70
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:44:22-67
+uses-permission#android.permission.READ_LOGS
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:45:5-68
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:45:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:46:5-69
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:46:22-66
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:48:5-79
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:48:22-76
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:49:5-80
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:49:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:50:5-81
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:50:22-78
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:52:5-88
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:52:22-85
+uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:53:5-93
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:53:22-90
+uses-permission#com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:54:5-94
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:54:22-91
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:55:5-78
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:55:22-76
+application
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:56:5-749:19
+MERGED from [com.android.support:support-v4:23.2.1] D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:60:9-41
+	android:allowBackup
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:58:9-35
+	android:icon
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:59:9-40
+	android:largeHeap
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:62:9-33
+	android:theme
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:61:9-40
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:57:9-51
+service#mno.ruili_app.main.CountService
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:63:10-76
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:63:19-65
+receiver#mno.ruili_app.main.DownLoadBroadcastReceiver
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:65:10-75:29
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:67:20-79
+intent-filter#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:69:21-73:38
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:71:26-91
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:71:34-88
+activity#mno.ruili_app.main.LauncherActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:77:9-88:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:79:13-49
+	android:label
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:80:13-45
+	android:theme
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:81:13-71
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:78:13-63
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:83:13-87:29
+action#android.intent.action.MAIN
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:84:17-69
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:84:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:86:17-77
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:86:27-74
+activity#mno.ruili_app.main.LeadActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:90:9-94:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:93:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:92:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:91:13-59
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:97:7-102:14
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:101:4-38
+	android:exported
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:100:4-28
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:99:4-65
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:98:4-51
+activity#com.alipay.sdk.auth.AuthActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:103:3-108:14
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:107:4-38
+	android:exported
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:106:4-28
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:105:4-65
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:104:4-51
+activity#mno.pay.alipay.PayActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:109:4-113:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:111:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:112:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:110:13-54
+activity#mno.down.ui.DownloadActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:117:10-120:20
+	android:label
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:119:13-45
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:118:13-56
+service#mno.down.service.DownloadService
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:122:9-124:40
+	android:exported
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:124:13-37
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:123:13-60
+receiver#mno.down.util.MissionActionReceiver
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:126:9-72
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:126:19-69
+activity#mno.ruili_app.main.Main
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:127:9-131:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:129:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:130:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:128:13-38
+activity#mno.ruili_app.main.HomeFragment
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:132:9-135:20
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:134:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:133:13-46
+activity#mno.ruili_app.main.NeighborFragment
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:136:9-139:20
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:138:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:137:13-50
+activity#mno.ruili_app.main.MyFragment
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:140:9-143:20
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:142:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:141:13-44
+activity#mno.ruili_app.my.mylogin
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:144:10-148:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:146:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:147:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:145:13-39
+activity#mno.ruili_app.my.myregistered
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:149:9-153:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:151:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:152:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:150:13-44
+activity#mno.ruili_app.my.mycheckcode
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:154:9-158:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:156:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:157:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:155:13-43
+activity#mno.ruili_app.my.my_findpwd
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:159:9-163:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:161:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:162:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:160:13-42
+activity#mno.ruili_app.my.myfindcheckcode
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:164:9-168:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:166:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:167:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:165:13-47
+activity#mno.ruili_app.my.mysetpsw
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:169:9-173:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:171:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:172:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:170:13-40
+activity#mno.ruili_app.my.my_buy
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:174:9-178:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:176:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:177:13-99
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:175:13-38
+activity#mno.ruili_app.my.my_viedio
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:179:9-183:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:181:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:182:13-99
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:180:13-41
+activity#mno.ruili_app.my.my_xx
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:184:9-188:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:186:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:187:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:185:13-37
+activity#mno.ruili_app.my.My_xiaoxi_item
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:190:9-194:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:192:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:193:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:191:13-46
+activity#mno.ruili_app.my.SystemMsgDetail
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:196:9-200:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:198:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:199:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:197:13-47
+activity#mno.ruili_app.my.my_xxxg
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:201:8-205:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:203:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:204:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:202:13-39
+activity#mno.ruili_app.my.my_xgname
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:206:10-210:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:208:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:209:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:207:13-41
+activity#mno.ruili_app.my.My_xgwork
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:212:9-216:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:214:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:215:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:213:13-41
+activity#mno.ruili_app.my.My_xgdanwei
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:217:9-221:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:219:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:220:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:218:13-43
+activity#mno.ruili_app.my.My_xgphonenum
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:222:9-226:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:224:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:225:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:223:13-45
+activity#mno.ruili_app.my.my_xgplace
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:227:9-231:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:229:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:230:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:228:13-42
+activity#mno.ruili_app.my.my_xgsex
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:232:9-236:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:234:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:235:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:233:13-40
+activity#mno.ruili_app.my.my_xgsign
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:237:9-241:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:239:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:240:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:238:13-41
+activity#mno.ruili_app.my.aboutroom
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:243:9-247:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:245:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:246:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:244:13-41
+activity#mno.ruili_app.my.my_wd
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:248:3-252:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:250:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:251:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:249:13-37
+activity#mno.ruili_app.my.my_sc
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:253:9-257:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:255:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:256:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:254:13-37
+activity#mno.ruili_app.my.my_ht
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:258:9-262:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:260:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:261:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:259:13-37
+activity#mno.ruili_app.my.my_xf
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:263:9-267:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:265:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:266:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:264:13-37
+activity#mno.ruili_app.my.my_kcjl_item
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:268:9-272:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:270:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:271:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:269:13-44
+activity#mno.ruili_app.my.my_wdxa_item
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:273:9-277:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:275:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:276:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:274:13-44
+activity#mno.ruili_app.my.my_grzy_item
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:278:9-282:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:280:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:281:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:279:13-44
+activity#mno.ruili_app.my.my_gyll_item
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:283:9-287:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:285:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:286:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:284:13-44
+activity#mno.ruili_app.my.my_bz_item
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:288:9-292:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:290:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:291:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:289:13-42
+activity#mno.ruili_app.my.my_yjfk_item
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:293:9-297:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:295:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:296:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:294:13-44
+activity#mno.ruili_app.my.my_jcgx_item
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:298:9-302:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:300:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:301:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:299:13-44
+activity#mno.ruili_app.my.my_tstz_item
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:303:9-307:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:305:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:306:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:304:13-44
+activity#mno.ruili_app.my.My_setup_item
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:309:8-313:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:312:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:311:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:310:13-58
+activity#mno.ruili_app.my.Job_details
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:316:8-320:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:319:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:318:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:317:13-56
+activity#mno.ruili_app.my.Worker_details
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:322:8-326:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:325:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:324:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:323:13-59
+activity#mno.ruili_app.my.Resume
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:328:8-332:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:331:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:330:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:329:13-51
+activity#mno.ruili_app.my.AddEmpMsg
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:334:8-338:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:337:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:336:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:335:13-54
+activity#mno.ruili_app.my.Talk_message
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:340:8-344:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:343:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:342:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:341:13-57
+activity#mno.ruili_app.my.im.ChatActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:346:9-350:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:349:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:348:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:347:13-60
+activity#mno.ruili_app.my.AllJobActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:352:8-356:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:355:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:354:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:353:13-59
+activity#mno.ruili_app.my.SelectJobActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:358:8-362:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:361:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:360:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:359:13-62
+activity#mno.ruili_app.my.SelectSalaryActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:364:8-368:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:367:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:366:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:365:13-65
+activity#mno.ruili_app.my.SelectPlaceActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:370:8-374:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:373:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:372:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:371:13-64
+activity#mno.ruili_app.my.SelectWorkTimeActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:376:8-380:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:379:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:378:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:377:13-67
+activity#mno.ruili_app.my.SelectHighEduActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:382:8-386:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:385:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:384:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:383:13-66
+activity#mno.ruili_app.my.AddWorkExp
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:388:8-392:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:391:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:390:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:389:13-55
+activity#mno.ruili_app.my.WorkDescribeActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:394:8-398:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:397:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:396:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:395:13-65
+activity#mno.ruili_app.my.AddEduExp
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:400:8-404:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:403:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:402:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:401:13-54
+activity#mno.ruili_app.my.EduDescribeActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:406:8-410:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:409:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:408:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:407:13-64
+activity#mno.ruili_app.my.AddEmpActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:412:8-416:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:415:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:414:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:413:13-59
+activity#mno.ruili_app.my.JobPlace_search
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:418:8-422:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:421:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:420:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:419:13-60
+activity#mno.ruili_app.my.Reset_pwd_item
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:424:9-428:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:427:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:426:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:425:13-59
+activity#mno.ruili_app.ct.imageview
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:429:10-432:20
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:431:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:430:13-41
+activity#mno_ruili_app.nei.wdfragment
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:433:10-437:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:435:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:436:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:434:13-56
+activity#mno_ruili_app.nei.zxfragment
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:438:10-442:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:440:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:441:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:439:13-56
+activity#mno.ruili_app.ct.CropImageActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:443:10-447:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:445:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:446:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:444:13-49
+activity#mno_ruili_app.nei.nei_bj
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:448:9-453:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:450:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:452:14-69
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:451:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:449:13-52
+activity#mno_ruili_app.nei.nei_find
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:454:9-458:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:456:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:457:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:455:13-54
+activity#mno_ruili_app.nei.nei_wdxq
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:459:9-464:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:461:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:463:14-56
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:462:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:460:13-54
+activity#mno_ruili_app.nei.nei_zxxq
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:465:10-469:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:467:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:468:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:466:13-54
+activity#mno_ruili_app.nei.nei_zxpl
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:470:9-475:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:472:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:473:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:471:13-54
+activity#mno_ruili_app.nei.nei_zx
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:476:9-481:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:478:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:480:13-55
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:479:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:477:13-52
+activity#mno_ruili_app.nei.nei_bj_tag
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:482:10-486:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:484:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:485:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:483:13-56
+activity#mno_ruili_app.nei.nei_pl
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:487:9-491:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:489:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:490:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:488:13-52
+activity#mno_ruili_app.home.home_mfvideo
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:492:10-496:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:494:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:495:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:493:13-59
+activity#mno_ruili_app.home.home_zbvideo
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:497:9-501:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:499:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:500:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:498:13-59
+activity#mno_ruili_app.home.home_hyvideo
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:502:9-506:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:504:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:505:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:503:13-59
+activity#mno_ruili_app.home.home_zb_rl
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:507:9-511:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:509:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:510:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:508:13-57
+activity#mno_ruili_app.home.home_flash
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:513:9-517:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:515:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:516:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:514:13-57
+activity#mno_ruili_app.home.home_zb_rl_
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:518:10-522:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:520:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:521:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:519:13-58
+activity#mno_ruili_app.home.home_video
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:523:9-528:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:525:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:526:13-55
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:527:13-99
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:524:13-57
+activity#mno_ruili_app.home.home_video2
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:530:9-535:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:533:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:534:13-55
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:532:13-99
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:531:13-58
+activity#mno_ruili_app.home.home_vod
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:536:9-540:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:538:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:539:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:537:13-55
+activity#mno_ruili_app.home.home_zb
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:542:9-546:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:544:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:545:13-99
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:543:13-54
+activity#mno_ruili_app.home.viedio_pl_fragment
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:547:9-551:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:549:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:550:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:548:13-65
+activity#mno_ruili_app.home.viedio_xq_fragment
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:552:9-556:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:554:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:555:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:553:13-65
+activity#mno_ruili_app.home.viedio_ml_fragment
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:557:9-561:20
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:559:13-49
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:560:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:558:13-65
+meta-data#com.amap.api.v2.apikey
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:563:9-109
+	android:value
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:563:58-106
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:563:20-57
+meta-data#UMENG_APPKEY
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:568:9-111
+	android:value
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:568:49-89
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:568:20-47
+activity#com.umeng.socialize.view.ShareActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:575:9-582:20
+	android:launchMode
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:578:13-44
+	android:noHistory
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:579:13-37
+	android:windowSoftInputMode
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:581:13-68
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:577:13-57
+	android:theme
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:580:13-50
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:576:13-66
+activity#com.tencent.tauth.AuthActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:585:9-597:20
+	android:launchMode
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:587:13-44
+	android:noHistory
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:588:13-37
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:586:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:589:13-596:29
+action#android.intent.action.VIEW
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:590:17-69
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:590:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:592:17-76
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:592:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:593:17-78
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:593:27-75
+data
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:595:17-59
+	android:scheme
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:595:23-56
+activity#com.tencent.connect.common.AssistActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:598:9-601:75
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:600:13-49
+	android:theme
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:601:13-72
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:599:13-69
+activity#mno.ruili_app.wxapi.WXEntryActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:604:8-609:52
+	android:screenOrientation
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:609:13-49
+	android:exported
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:608:13-36
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:607:13-74
+	android:theme
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:606:13-72
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:605:13-63
+activity#cn.jpush.android.ui.PushActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:637:9-646:20
+	android:exported
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:640:13-37
+	android:configChanges
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:639:13-63
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:638:13-60
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+mno.ruili_app
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:641:13-645:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:642:17-75
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:642:25-72
+category#mno.ruili_app
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:644:17-58
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:644:27-55
+service#cn.jpush.android.service.DownloadService
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:648:9-652:19
+	android:enabled
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:650:13-35
+	android:exported
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:651:13-37
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:649:13-68
+service#cn.jpush.android.service.PushService
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:656:9-667:19
+	android:enabled
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:658:13-35
+	android:exported
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:659:13-37
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:657:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:660:13-666:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:661:17-75
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:661:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:662:17-73
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:662:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:663:17-78
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:663:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:664:17-76
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:664:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:670:9-678:19
+	android:enabled
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:672:13-35
+	android:exported
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:673:13-36
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:671:13-66
+intent-filter#cn.jpush.android.intent.DaemonService+mno.ruili_app
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:674:13-677:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:675:17-80
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:675:25-77
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:682:9-701:20
+	android:enabled
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:684:13-35
+	android:exported
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:685:13-37
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:683:13-65
+intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+mno.ruili_app
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:686:14-689:29
+	android:priority
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:686:29-52
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:687:17-94
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:687:25-91
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:690:13-693:29
+action#android.intent.action.USER_PRESENT
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:691:17-77
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:691:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:692:17-79
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:692:25-76
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:695:13-699:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:696:17-78
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:696:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:697:17-80
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:697:25-77
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:704:9-75
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:704:19-72
+receiver#mno.ruili_app.main.MyReceiver
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:707:9-719:20
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:708:13-57
+intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+cn.jpush.android.intent.UNREGISTRATION+mno.ruili_app
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:709:13-718:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:710:17-79
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:710:25-76
+action#cn.jpush.android.intent.UNREGISTRATION
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:711:17-81
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:711:25-78
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:712:17-83
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:712:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:713:17-88
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:713:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:714:17-86
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:714:25-83
+action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:715:17-91
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:715:25-88
+action#cn.jpush.android.intent.CONNECTION
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:716:17-77
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:716:25-74
+meta-data#JPUSH_CHANNEL
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:723:9-84
+	android:value
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:723:49-82
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:723:20-48
+meta-data#JPUSH_APPKEY
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:724:9-91
+	android:value
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:724:48-88
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:724:20-47
+meta-data#AA_DB_NAME
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:725:9-76
+	android:value
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:725:46-73
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:725:20-45
+meta-data#AA_DB_VERSION
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:726:9-69
+	android:value
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:726:49-66
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:726:20-48
+meta-data#UMENG_CHANNEL
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:728:9-78
+	android:value
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:728:49-75
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:728:20-48
+meta-data#EASEMOB_APPKEY
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:732:6-79
+	android:value
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:732:48-76
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:732:17-46
+service#com.hyphenate.chat.EMChatService
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:734:6-88
+	android:exported
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:734:63-86
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:734:15-62
+receiver#com.hyphenate.chat.EMMonitorReceiver
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:736:9-746:20
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:736:19-70
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:737:13-740:29
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.USER_PRESENT
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:742:13-745:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:743:17-78
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:743:25-76
+instrumentation#android.test.InstrumentationTestRunner
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:751:5-753:55
+	android:targetPackage
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:753:9-52
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:752:9-62
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:756:5-68
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:756:22-65
+uses-permission#android.permission.SET_DEBUG_APP
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:757:5-72
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:757:22-69
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:758:5-78
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:758:22-75
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:759:5-71
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:759:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:760:5-74
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:760:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:761:5-74
+	android:name
+		ADDED from D:\Android\FirstCode\mno_ruili_app\mno_ruili_app\src\main\AndroidManifest.xml:761:22-71

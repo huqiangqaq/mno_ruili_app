@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/blue_top" >
+        <mno.ruili_app.ct.CloseButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:src="@drawable/all_back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="添加教育经历"
+            android:textColor="@color/white"
+            android:textSize="@dimen/default_font_title_size" />
+    </RelativeLayout>
+    <!-- 入学时间 -->
+	<LinearLayout
+       android:id="@+id/ll_joinSchool"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@drawable/selector_button_color_red_noshape"
+ 	   style="@style/style_text_mybut"     
+ 	   android:layout_marginTop="10dp"      
+       android:orientation="horizontal" >
+       <TextView                             
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:text="入学时间"
+           android:textColor="#a7a7a7"
+           android:textSize="@dimen/default_font_content_size" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:layout_gravity="center"
+           android:orientation="vertical" >
+           <LinearLayout                                       
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1" >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_weight="1"
+                   android:orientation="vertical" >
+                   <TextView
+                       android:id="@+id/tv_joinSchool"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:gravity="right"
+                       android:layout_marginRight="10dp"
+                       android:hint="请选择入学时间(必填)"
+                       android:text="" />
+               </LinearLayout>
+               <ImageView                      
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginRight="20dp"                       
+                   android:src="@drawable/my_item_go" />
+           </LinearLayout>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0.01dip"
+               android:layout_weight="0"
+               android:background="#7fdcdcdc" />
+       </LinearLayout>
+    </LinearLayout>
+    <!-- 毕业时间 -->
+	<LinearLayout
+       android:id="@+id/ll_leaveSchool"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@drawable/selector_button_color_red_noshape"
+ 	   style="@style/style_text_mybut"         
+       android:orientation="horizontal" >
+       <TextView                             
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:text="毕业时间"
+           android:textColor="#a7a7a7"
+           android:textSize="@dimen/default_font_content_size" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:layout_gravity="center"
+           android:orientation="vertical" >
+           <LinearLayout                                       
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1" >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_weight="1"
+                   android:orientation="vertical" >
+                   <TextView
+                       android:id="@+id/tv_leaveSchool"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:gravity="right"
+                       android:layout_marginRight="10dp"
+                       android:hint="请选择毕业时间(必填)"
+                       android:text="" />
+               </LinearLayout>
+               <ImageView                      
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginRight="20dp"                       
+                   android:src="@drawable/my_item_go" />
+           </LinearLayout>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0.01dip"
+               android:layout_weight="0"
+               android:background="#7fdcdcdc" />
+       </LinearLayout>
+    </LinearLayout>
+    <!-- 学校 -->
+	<LinearLayout
+       android:id="@+id/ll_school"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@drawable/selector_button_color_red_noshape"	       
+       android:orientation="horizontal" >
+       <TextView                             
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:text="学校"
+           android:textColor="#a7a7a7"
+           android:textSize="@dimen/default_font_content_size" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:layout_gravity="center"
+           android:orientation="vertical" >
+           <LinearLayout                                       
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1" >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_weight="1"
+                   android:orientation="vertical" >
+                   <EditText
+                       android:id="@+id/et_school"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:gravity="right"
+                       android:background="@null"
+                       android:layout_marginRight="20dp"
+                       android:textSize="14sp"
+                       android:hint="请输入学校名称(必填)"
+                       android:text="" />
+               </LinearLayout>
+           </LinearLayout>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0.01dip"
+               android:layout_weight="0"
+               android:background="#7fdcdcdc" />
+       </LinearLayout>
+   </LinearLayout>
+   <!-- 学历 -->
+   <LinearLayout
+       android:id="@+id/ll_edu"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@drawable/selector_button_color_red_noshape"
+ 	   style="@style/style_text_mybut"      
+       android:orientation="horizontal" >
+       <TextView                             
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:text="学历"
+           android:textColor="#a7a7a7"
+           android:textSize="@dimen/default_font_content_size" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:layout_gravity="center"
+           android:orientation="vertical" >
+           <LinearLayout                                       
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1" >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_weight="1"
+                   android:orientation="vertical" >
+                   <TextView
+                       android:id="@+id/tv_edu"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:gravity="right"
+                       android:layout_marginRight="10dp"
+                       android:hint="请选择学历(必填)"
+                       android:text="" />
+               </LinearLayout>
+               <ImageView                      
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginRight="20dp"                       
+                   android:src="@drawable/my_item_go" />
+           </LinearLayout>          
+       </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.01dip"
+        android:layout_weight="0"
+        android:background="#7fdcdcdc" />
+    <!-- 专业 -->
+	<LinearLayout
+       android:id="@+id/ll_major"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@drawable/selector_button_color_red_noshape"	       
+       android:orientation="horizontal" >
+       <TextView                             
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:text="专业"
+           android:textColor="#a7a7a7"
+           android:textSize="@dimen/default_font_content_size" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:layout_gravity="center"
+           android:orientation="vertical" >
+           <LinearLayout                                       
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1" >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_weight="1"
+                   android:orientation="vertical" >
+                   <EditText
+                       android:id="@+id/et_major"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:gravity="right"
+                       android:background="@null"
+                       android:layout_marginRight="20dp"
+                       android:textSize="14sp"
+                       android:hint="请输入专业名称(必填)"
+                       android:text="" />
+               </LinearLayout>
+           </LinearLayout>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0.01dip"
+               android:layout_weight="0"
+               android:background="#7fdcdcdc" />
+       </LinearLayout>
+   </LinearLayout>
+    <!-- 经历描述 -->
+	<LinearLayout
+       android:id="@+id/ll_eduDescribe"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@drawable/selector_button_color_red_noshape"
+ 	   style="@style/style_text_mybut"      
+       android:orientation="horizontal" >
+       <TextView                             
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:text="经历描述"
+           android:textColor="#a7a7a7"
+           android:textSize="@dimen/default_font_content_size" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:layout_gravity="center"
+           android:orientation="vertical" >
+           <LinearLayout                                       
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1" >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_weight="1"
+                   android:orientation="vertical" >
+                   <TextView
+                       android:id="@+id/tv_eduDescribe"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:gravity="right"
+                       android:layout_marginRight="10dp"
+                       android:hint="请输入经历描述"
+                       android:singleLine="true"
+                       android:text="" />
+               </LinearLayout>
+               <ImageView                      
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginRight="20dp"                       
+                   android:src="@drawable/my_item_go" />
+           </LinearLayout>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0.01dip"
+               android:layout_weight="0"
+               android:background="#7fdcdcdc" />
+       </LinearLayout>
+    </LinearLayout>
+     <TextView
+	    android:id="@+id/tv_ok"
+	    android:gravity="center"
+	    android:layout_width="match_parent"
+	    android:layout_height="30dp"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+		android:layout_marginTop="30dp"
+	    android:background="@drawable/radius_orange"
+	    android:text="完成"
+	    android:textColor="@color/white"
+	    android:textSize="14sp" />
+</LinearLayout>
+

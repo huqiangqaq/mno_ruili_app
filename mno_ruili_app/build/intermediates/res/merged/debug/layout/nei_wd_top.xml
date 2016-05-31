@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <mno.ruili_app.ct.RoundImageView
+                android:id="@+id/lz_image"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="#00FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/wdxq_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text=""
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:drawableLeft="@drawable/wd_money"
+                        android:drawablePadding="2dp"
+                        android:text="提问者悬赏："
+                        android:textColor="#7a7a7a"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/wdxq_fs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="#ff7900" />
+
+                    <TextView
+                        android:id="@+id/wdxq_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:drawableLeft="@drawable/wd_time"
+                        android:drawablePadding="2dp"
+                        android:text=""
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <mno.ruili_app.ct.JustifyTextView
+            android:id="@+id/wdxq_con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:minHeight="80dp"
+            android:text=""
+            android:textColor="#424242"
+            android:textSize="15sp"
+            android:lineSpacingMultiplier="1.1" />
+
+        <LinearLayout
+            android:id="@+id/img_box"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="15dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/img1"
+                style="@style/style_text_mybut"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/img2"
+                style="@style/style_text_mybut"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                  />
+
+            <ImageView
+                android:id="@+id/img3"
+                style="@style/style_text_mybut"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                  />
+
+              <ImageView
+                  android:id="@+id/img4"
+                  style="@style/style_text_mybut"
+                  android:layout_width="1dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:scaleType="centerCrop"
+                    />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/white_f5" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="#00a1ea" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="所有评论"
+                android:textColor="#979797" />
+        </LinearLayout>
+        
+    </LinearLayout>
+</LinearLayout>

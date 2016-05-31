@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp"
+	    android:background="@color/blue_top" >
+
+            <mno.ruili_app.ct.CloseButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/all_back" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="我的问答"
+                android:textColor="@color/white"
+                android:textSize="@dimen/default_font_title_size"
+                 />
+
+            <TextView
+                android:id="@+id/my_but_bj"
+                style="@style/style_text_mybut"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="20dp"
+                android:text="编辑"
+                android:textColor="@color/white"
+                android:textSize="@dimen/default_font_content_size" />
+
+        </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/nei_zx"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:onClick="onclick"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/my_butwen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:drawableLeft="@drawable/nei_zx"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="提问"
+            android:textColor="@color/orange"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/bz_nei_zx"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:layout_weight="0"
+            android:background="@color/orange"
+            android:text="" />
+
+    </LinearLayout>
+     	<TextView          
+            android:layout_width="0.1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="#dcdcdc"
+            android:text="" />
+  <LinearLayout
+      android:id="@+id/nei_wd"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_weight="1.0"
+      android:onClick="onclick"
+      android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/my_butda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:drawableLeft="@drawable/nei_wd"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="回答"
+            android:textColor="@color/gray_91"
+            android:textSize="15sp" />
+
+		<TextView
+            android:id="@+id/bz_nei_wd"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:layout_weight="0"          
+            android:text="" />
+    </LinearLayout>
+</LinearLayout>
+
+<ListView
+    android:id="@+id/mListView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:divider="@null"
+    android:listSelector="@drawable/selector_button_color_red_noshape" >
+
+</ListView>
+
+<ListView
+    android:id="@+id/mListView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:divider="@null"
+    android:listSelector="@drawable/selector_button_color_red_noshape"
+    android:visibility="gone" >
+
+</ListView>
+
+<LinearLayout
+    android:id="@+id/ll_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center_vertical"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_all"
+            style="@style/style_text_mybut"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f7f4f5"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="全选"
+            android:textColor="#424242"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_delete"
+            style="@style/style_text_mybut"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="#f7f4f5"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="删除"
+            android:textColor="#424242"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</LinearLayout>

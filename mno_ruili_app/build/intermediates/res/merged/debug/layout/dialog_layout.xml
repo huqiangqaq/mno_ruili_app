@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                 />
+    <LinearLayout
+        android:id="@+id/ly_contactus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#eeeeee"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+      <RadioGroup
+           android:id="@+id/rg_lg"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/lg_English"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="#eeeeee"
+                android:button="@null"
+                android:drawableRight="@drawable/but_selector"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="男"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#aeaeae" />
+
+            <RadioButton
+                android:id="@+id/lg_chinese"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="1dp"
+                android:background="#eeeeee"
+                android:button="@null"
+                android:drawableRight="@drawable/but_selector"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="女"
+                android:textColor="#000" />
+
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclick" >
+
+            <TextView
+                android:id="@+id/dialog_ok"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/selector_button_color_red"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"
+                     android:background="@color/blue"/>
+               
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

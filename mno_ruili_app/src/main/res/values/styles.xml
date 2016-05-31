@@ -1,0 +1,139 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="PopupWindowAnimation">  
+        <item name="android:windowEnterAnimation">@anim/popshow_anim</item>  
+        <item name="android:windowExitAnimation">@anim/pophidden_anim</item>  
+    </style>
+
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/ts_bg</item>
+         <!-- @color/tm @drawable/dialog_load_bg-->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+	<!--  -->
+    <style name="style_text_holo">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:gravity">center</item>
+        <!--  <item name="android:textColor">@color/gray</item> -->
+        <item name="android:onClick">onclick</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">@dimen/default_font_flag_size</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+    <!--  -->
+ 	<style name="style_text_mybut">     
+        <item name="android:onClick">onclick</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>      
+    </style>
+	<!--  -->
+    <style name="style_text_canbut">
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--  -->
+    <style name="style_text_nei_jf_but">
+     	<item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textColor">#7a7a7a</item>
+        <item name="android:onClick">onclick</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/view_line</item>
+    </style>
+    <!--  -->
+    <style name="style_text_nei_jf_but_item">
+     	<item name="android:layout_width">58dp</item>    	
+        <item name="android:layout_height">25dp</item>
+        <item name="android:textColor">#7a7a7a</item>      
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/view_line</item>
+    </style>
+    <!--  -->
+    <style name="style_text_nei_jf_but_item_big">
+     	<item name="android:layout_width">65dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:textColor">#7a7a7a</item>      
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/selector_findtag</item>
+    </style>
+    <!--  -->
+    <style name="edittext1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">45.0dip</item>
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHint">#dbd8d8</item>
+        <item name="android:maxLength">20</item>
+        <item name="android:padding">5.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ems">10</item>
+        <item name="android:drawableRight">@drawable/ic_input_clear</item>
+        <item name="android:background">@drawable/bg_frame</item>
+    </style>
+    <!--  -->
+	<style name="AnimBottom" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+	</style>
+  	<!--  -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+         <item name="android:windowNoTitle">true</item>  
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!--  -->
+	<style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+		<item name="android:button">@drawable/checkbox_selector</item>
+	</style>
+	<!--  -->
+ 	<style name="Widget" parent="android:Widget"></style>
+ 	<!--  -->
+    <style name="mProgressBarHorizontal" parent="@style/Widget">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">5dip</item>
+        <item name="android:maxHeight">5dip</item>        
+    </style>
+    <!--  -->
+    <style name="Item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">300dp</item>
+    </style>
+    <!--  -->
+    <style name="Item.Sticky">
+        <item name="android:background">#fff</item>
+    </style>        
+    <!--  -->
+    <style name="weekName">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#979797</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>
